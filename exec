@@ -1,0 +1,41 @@
+safe:
+
+./IC3 -v -s < ./example/brp.aig
+
+./IC3 -v -s < ./example/hwmcc19-single-benchmarks/aig/mann/safe/analog_estimation_convergence.aig	IF=59
+
+./IC3 -v -s < ./example/hwmcc17-single-benchmarks/nusmvguidancep1.aig  AC=0.90
+
+./IC3 -v -s < ./example/hwmcc17-single-benchmarks/nusmvreactorp3.aig AC=0.98
+
+./IC3 -v -s < ./example/hwmcc17-single-benchmarks/nusmvtcasp3.aig   
+
+./IC3 -v -s < ./example/hwmcc17-single-benchmarks/eijks386.aig  IF=1 K=2   AC=0.01
+
+./IC3 -v -s < ./example/hwmcc17-single-benchmarks/pj2016.aig    IF=1 K=3   AC = 1
+
+./IC3 -v -s < ./example/hwmcc17-single-benchmarks/texaspimainp01.aig	IF=1  AC=0.76
+
+unsafe:
+
+./IC3 -v -s < ./example/hwmcc19-single-benchmarks/aig/goel/opensource/h_b05/h_b05.aig	IF=1
+
+./IC3 -v -s < ./example/hwmcc19-single-benchmarks/aig/goel/opensource/usb_phy/usb_phy.aig  IF=1 unSAT AC=0
+
+./IC3 -v -s < ./example/hwmcc17-single-benchmarks/ringp0.aig     AC=0.42
+
+./IC3 -v -s < ./example/hwmcc19-single-benchmarks/aig/goel/opensource/vis_arrays_buf_bug/vis_arrays_buf_bug.aig
+
+./IC3 -v -s < ./example/hwmcc17-single-benchmarks/bj08amba2g4f3.aig [DUMP]  AC=0.17
+
+./IC3 -v -s < ./example/hwmcc17-single-benchmarks/beemlmprt8f1.aig [DUMP]   AC=0.60
+
+./IC3 -v -s < ./example/hwmcc17-single-benchmarks/6s210b037.aig
+
+./IC3 -v -s < ./example/hwmcc17-single-benchmarks/abp4p2ff.aig
+
+./IC3 -v -s < ./example/hwmcc17-single-benchmarks/irstdme6.aig [TLE]
+
+./IC3 -v -s < ./example/hwmcc17-single-benchmarks/prodcellp4.aig
+
+./IC3 -v -s < ./example/hwmcc17-single-benchmarks/mutexp0.aig

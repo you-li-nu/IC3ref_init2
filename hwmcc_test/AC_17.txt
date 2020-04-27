@@ -1,0 +1,300 @@
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s163.aig,Too many latches!72720
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//texasparsesysp2.aig,59,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel034.aig,Too many latches!3297
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//kenflashp07.aig,97,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm1edata.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gmcadata.aig,99,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//eijks953.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pdtvisgray0.aig,79,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm88iram.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bobtuttt.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//visprodcellp01.aig,83,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel007.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel026.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bj08amba2g4f3.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//beemlmprt8f1.aig,56,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s342rb122.aig,Too many latches!56838
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s210b037.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm7daddr.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oski15a07b0s.aig,Too many latches!4453
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel047.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel040.aig,Too many latches!9510
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//abp4p2ff.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pdtfifo1to0.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//kenflashp03.aig,98,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s0.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bobunr2p10d40l.aig,100,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s38.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//irstdme6.aig,79,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm43acc.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm8apc.aig,100,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//visarbiter.aig,34,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm58addr.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//prodcellp4.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s130.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//neclaftp5001.aig,99,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//eijks344.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//mutexp0.aig,51,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//neclaftp4002.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//mentorbm1p02.aig,Too many latches!4377
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s119.aig,Too many latches!18833
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bobsmcodic.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s128.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm06iram.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//139452p0.aig,100,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bobsmhdlc3.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel043.aig,Too many latches!7223
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel066.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel003.aig,90,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s329rb19.aig,Too many latches!31947
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s16.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s355rb08740.aig,Too many latches!15091
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gmdaaddr.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//neclabakery001.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//power2bit128.aig,99,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//cmudme2.aig,58,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s105.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s403rb1342.aig,Too many latches!5468
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm3facc.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s109.aig,49,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s319r.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bj08amba5g62.aig,68,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s428rb098.aig,Too many latches!3790
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051topo08.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gme0pc.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gmf2iram.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s367r.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oski15a08b08s.aig,Too many latches!16357
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//beemandrsn6b1.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gmb6acc.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s185.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel039.aig,Too many latches!9501
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm03acc.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//neclatcas1a001.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s351rb02.aig,Too many latches!3862
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//mentorbm1and.aig,Too many latches!4377
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bobsmi2c.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gme5iram.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s158.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s384rb024.aig,Too many latches!14952
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s20.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s160.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//counterp0.aig,28,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm49acc.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm4dacc.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel028.aig,Too many latches!7436
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s421rb083.aig,8,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm68addr.aig,97,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pcip1.aig,51,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oski15a01b00s.aig,Too many latches!25715
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//nusmvguidancep1.aig,91,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bobsmminiuart.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm3bacc.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s4.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pdtpmss1269b.aig,5,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bob2.aig,17,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm63iram.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//nusmvreactorp3.aig,99,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s195.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s280r.aig,27,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s320rb1.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel012.aig,Too many latches!5884
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s288r.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s274r.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel032.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s394r.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//eijks1238.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gmc6data.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s404rb1.aig,Too many latches!9801
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s120.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm3dpc.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s22.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel027.aig,Too many latches!5143
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pj2016.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s374b114.aig,Too many latches!26324
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s372rb26.aig,3,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm0caddr.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gmc5addr.aig,98,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s187.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s310r.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm15addr.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm59data.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s275rb318.aig,Too many latches!3196
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s268r.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s37.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s29.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s348b53.aig,Too many latches!15560
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//visemodel.aig,80,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bobmiterbm1or.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bob9234specand.aig,100,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel056.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bobsynth13.aig,Too many latches!3015
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gmd7acc.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//viselevatorp1.aig,78,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm49pc.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gme2addr.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oski15a14b22s.aig,Too many latches!3519
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gmcciram.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pdtswvtma6x6p3.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pdtswvtma6x4p1.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s41.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bob3.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s209b0.aig,Too many latches!5759
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//eijkbs3271.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm6dpc.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s376r.aig,Too many latches!4708
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//eijks386.aig,1,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s514r.aig,23,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//dme6p1neg.aig,51,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s186.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bobtuint24.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s204b16.aig,Too many latches!28986
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm64pc.aig,100,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s389b02.aig,Too many latches!3915
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel013.aig,Too many latches!13354
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gmbfpc.aig,100,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gma6data.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s290.aig,Too many latches!13679
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel064.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s343b08.aig,Too many latches!4774
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s322rb646.aig,Too many latches!80927
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//139453p0.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pdtvisrethersqo0.aig,100,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm4biram.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel061.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//139464p0.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//nusmvreactorp5.aig,93,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s377r.aig,Too many latches!4708
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bob12s09.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//kenflashp09.aig,99,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s400rb07819.aig,Too many latches!14665
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pdtpmsrotate32.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bobpcihm.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s402rb0342.aig,Too many latches!13365
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pdtpmsusbphy.aig,85,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s202b41.aig,Too many latches!68881
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pdtvisvending00.aig,71,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s404rb4.aig,Too many latches!9801
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm9ddata.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s399b02.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//boblivear.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bobsmfpu.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oski15a08b00s.aig,Too many latches!16357
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s42.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//texasifetch1p8.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s205b20.aig,Too many latches!68842
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//csmacdp2.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pdtvisgigamax4.aig,90,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s516r.aig,21,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//mentorbm1or.aig,Too many latches!4377
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//texasifetch1p1.aig,48,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//texaspimainp01.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bobsynthor.aig,Too many latches!3015
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pdtpmsretherrtf.aig,1,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bob05.aig,100,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s517rb0.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s393r.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel036.aig,Too many latches!5805
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//nusmvbrp.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bobcount.aig,82,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s351rb15.aig,Too many latches!3862
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s344rb054.aig,Too many latches!10669
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s316b421.aig,Too many latches!32922
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s267rb3.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s292rb037.aig,Too many latches!3190
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s406rb067.aig,Too many latches!10746
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm36addr.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s359r.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//kenflashp08.aig,100,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s366r.aig,10,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bj08amba2g1.aig,66,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//beemcmbrdg1f1.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//dme6p1.aig,46,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gmb8addr.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//eijks1196.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s131.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//ringp0.aig,42,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//eijkbs1512.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oski15a01b57s.aig,Too many latches!25715
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm81pc.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pdtvisns2p3.aig,41,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bj08vendingcycle.aig,56,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s341r.aig,Too many latches!3993
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm98addr.aig,97,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm12data.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pdtpmsarbiter.aig,5,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s218b2950.aig,Too many latches!58676
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s207rb28.aig,Too many latches!3012
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//eijkbs6669.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//ndista128.aig,92,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//nusmvsyncarb5p2.aig,22,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pdtvisblackjack0.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pdtvishuffman1.aig,100,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s206rb103.aig,Too many latches!28643
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s145.aig,Too many latches!21343
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s216rb0.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gmecacc.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s365r.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel025.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//139442p1.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bj08aut82.aig,39,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s134.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//139462p0.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel014.aig,Too many latches!4309
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//kenflashp10.aig,100,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bobsynthand.aig,Too many latches!3015
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s374b029.aig,Too many latches!26324
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s191.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel044.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//boblivea.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//srg5ptimo.aig,42,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s279r.aig,22,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//nusmvdme216.aig,70,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s271rb079.aig,Too many latches!10602
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s387rb291.aig,Too many latches!29494
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//brpp1.aig,53,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s269r.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gmadacc.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel016.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//beemadd4b1.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s316b460.aig,Too many latches!32922
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//eijks444.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s299b685.aig,Too many latches!467369
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gma4pc.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s380b511.aig,Too many latches!5606
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pdtswvibs8x8p0.aig,24,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//beemptrsn4b1.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bj08amba3g1.aig,67,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s44.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oski15a10b02s.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm3apc.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s276rb342.aig,Too many latches!3201
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//shift1add262144.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s188.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//productioncellp0.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel046.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm2daddr.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s281b35.aig,Too many latches!177235
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//beemcmbrdg1b1.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s515rb1.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel001.aig,86,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//vis4arbitp1.aig,5,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bc57sensorsp2.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gm95pc.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//texasparsesysp3.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//139443p5.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//kenflashp13.aig,100,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//beemlifts3b1.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s391rb379.aig,68,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//bobsm9234.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s398b09.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s221rb14.aig,Too many latches!42181
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//nusmvtcasp3.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//139444p22.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s215rb0.aig,49,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s344rb150.aig,Too many latches!10669
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//eijks349.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//pj2010.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//viselevatorp2.aig,26,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gmfbaddr.aig,timeout
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051xiommuo5.aig,timeout

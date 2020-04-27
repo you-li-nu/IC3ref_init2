@@ -1,0 +1,32 @@
+down(F_i, s):
+	check if -s is relative inductive to F_i.
+	if it does not, there must be a t, which is the predecessor of s.
+	-s <- common_literals(-s, -t)
+	down fails when \theta \in s (initiation).
+
+conclusion: initiation is critical to down().
+
+any consecution to F_0 (false) should always be successful.
+
+therefore, -s should be joined to F_1 by default.
+
+no generalization for clauses to F_0.
+
+(Zhou: manually keep the last literal.)
+
+We have modified:
+a)
+
+  void loadInitialCondition(Minisat::Solver & slv) const;
+  void loadFakeInitialCondition(Minisat::Solver & slv) const;
+
+the second just loads a bfalse() into F_0.
+the first loads the initial state into F_0.
+
+b)
+
+  bool initiation(const LitVec & latches);
+  bool always_initiation(const LitVec & latches);
+
+the second always return true for initiation.
+the first syntactically check if a cube intersects with the initial state.
