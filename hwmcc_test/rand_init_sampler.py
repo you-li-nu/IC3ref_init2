@@ -4,7 +4,7 @@ import os
 import subprocess
 import re
 
-from hwmcc import _read_optional, run_foreground
+from hwmcc import _read_optional, run_foreground, write_file_print
 
 
 
@@ -12,11 +12,11 @@ def main():
 
     #file_path = '/home/li/Documents/IC3ref_init/example/kaiyu/'
     #file_name = 'shift_multi.aig'
-    file_path = "/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/"
+    file_path = "/home/li/Documents/IC3ref_init/example/hwmcc19-single-benchmarks/"
     # file_name = "aig/goel/opensource/usb_phy/usb_phy.aig"
 
 
-    result = open("AC_17.txt", "w")
+    result = open("data/AC_19.txt", "w")
 
     for subdir, dirs, files in os.walk(file_path):
         for file in files:
@@ -119,8 +119,8 @@ def run_abc_checking(init, aig_file, timeout):
     return True, output
 
 '''
-return (false, n): "was asserted in frame n"
-return (true, k): "Verification of invariant with k clauses was successful"
+return (false, n): "was asserted in frame n": the model is unsafe
+return (true, k): "Verification of invariant with k clauses was successful": the model is safe
 '''
 def process_abc_output(s):
     if b"was asserted in frame" in s[-2]:
@@ -132,8 +132,9 @@ def process_abc_output(s):
         k = re.findall(r"Verification of invariant with (.*?) clauses", line)[0]
         return True, int(k)
     else:
-        print(s)
-        assert False, "unknown line in abc output."
+        # print(s)
+        return None, s
+        # assert False, "unknown line in abc output."
 
     #     return -1
     # elif

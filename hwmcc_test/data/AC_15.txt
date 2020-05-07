@@ -1,0 +1,4 @@
+/home/li/Documents/IC3ref_init/example/hwmcc15-benchmarks-single//oski15a01b05s.aig,Too many latches!25715
+/home/li/Documents/IC3ref_init/example/hwmcc15-benchmarks-single//oski15a14b13s.aig,Too many latches!3519
+/home/li/Documents/IC3ref_init/example/hwmcc15-benchmarks-single//texaspimainp12.aig,79,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc15-benchmarks-single//intel048.aig,

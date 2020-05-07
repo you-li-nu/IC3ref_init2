@@ -1,771 +1,511 @@
+threshold: 2.82715
 K is : 1
 trivial is : 0
+. Elapsed time: 0.01
+. % SAT:        100
+. K:            1
+. # Queries:    1092
+. # CTIs:       47
+. # CTGs:       0
+. # mic calls:  91
+. Queries/sec:  109200
+. Mics/sec:     9100
+. # Red. cores: 15
+. # Int. joins: 0
+. # Int. mics:  34
+. Avg lits/cls: 5.93333
 K is : 2
 trivial is : 0
+. Elapsed time: 0.01
+. % SAT:        100
+. K:            2
+. # Queries:    1174
+. # CTIs:       49
+. # CTGs:       0
+. # mic calls:  94
+. Queries/sec:  117400
+. Mics/sec:     9400
+. # Red. cores: 16
+. # Int. joins: 0
+. # Int. mics:  36
+. Avg lits/cls: 5.88312
 K is : 3
-trivial is : 1
+trivial is : 0
+. Elapsed time: 0.01
+. % SAT:        100
+. K:            3
+. # Queries:    1339
+. # CTIs:       54
+. # CTGs:       0
+. # mic calls:  107
+. Queries/sec:  133900
+. Mics/sec:     10700
+. # Red. cores: 18
+. # Int. joins: 0
+. # Int. mics:  46
+. Avg lits/cls: 5.66667
 K is : 4
-trivial is : 1
+trivial is : 0
+. Elapsed time: 0.01
+. % SAT:        100
+. K:            4
+. # Queries:    1850
+. # CTIs:       79
+. # CTGs:       0
+. # mic calls:  164
+. Queries/sec:  185000
+. Mics/sec:     16400
+. # Red. cores: 36
+. # Int. joins: 0
+. # Int. mics:  87
+. Avg lits/cls: 5.30303
 K is : 5
 trivial is : 0
-K is : 6
-trivial is : 1
-K is : 7
-trivial is : 1
-K is : 8
-trivial is : 0
-K is : 9
-trivial is : 1
-K is : 10
-trivial is : 0
-K is : 11
-trivial is : 1
-K is : 12
-trivial is : 1
-K is : 13
-trivial is : 1
-K is : 14
-trivial is : 1
-K is : 15
-trivial is : 1
-K is : 16
-trivial is : 1
-K is : 17
-trivial is : 1
-K is : 18
-trivial is : 0
-K is : 19
-trivial is : 1
-K is : 20
-trivial is : 1
-K is : 21
-trivial is : 0
-K is : 22
-trivial is : 0
 invariant Frame: 1
+SAT
+IF samples starts.
+sample 0: ~l0 ~l1 ~l2 ~l3 l4 l5 l6 l7 ~l8 ~l9 ~l10 l11 l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 1: ~l0 ~l1 ~l2 ~l3 l4 l5 l6 l7 ~l8 ~l9 ~l10 ~l11 l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 2: ~l0 ~l1 ~l2 ~l3 l4 l5 l6 l7 ~l8 ~l9 l10 ~l11 l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 3: ~l0 ~l1 ~l2 ~l3 ~l4 l5 l6 l7 ~l8 ~l9 l10 ~l11 l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 4: ~l0 ~l1 ~l2 ~l3 ~l4 l5 l6 l7 ~l8 ~l9 ~l10 ~l11 l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 5: ~l0 ~l1 ~l2 ~l3 ~l4 l5 l6 l7 ~l8 ~l9 ~l10 l11 l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 6: ~l0 ~l1 ~l2 ~l3 ~l4 l5 l6 l7 ~l8 ~l9 l10 l11 l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 7: ~l0 ~l1 ~l2 ~l3 l4 l5 l6 l7 ~l8 ~l9 l10 l11 l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 8: ~l0 ~l1 ~l2 l3 ~l4 l5 l6 l7 ~l8 ~l9 l10 l11 l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 9: ~l0 ~l1 ~l2 l3 ~l4 l5 l6 l7 ~l8 ~l9 l10 ~l11 l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 10: ~l0 ~l1 ~l2 l3 l4 l5 l6 l7 ~l8 ~l9 l10 ~l11 l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 11: ~l0 ~l1 ~l2 l3 l4 l5 l6 l7 ~l8 ~l9 l10 l11 l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 12: ~l0 ~l1 ~l2 l3 ~l4 l5 l6 l7 ~l8 ~l9 ~l10 l11 l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 13: ~l0 ~l1 ~l2 l3 ~l4 l5 l6 l7 ~l8 ~l9 ~l10 ~l11 l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 14: ~l0 ~l1 ~l2 l3 l4 l5 l6 l7 ~l8 ~l9 ~l10 ~l11 l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 15: ~l0 ~l1 ~l2 l3 l4 l5 l6 l7 ~l8 ~l9 ~l10 l11 l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 16: ~l0 ~l1 ~l2 l3 ~l4 l5 l6 l7 ~l8 ~l9 l10 ~l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 17: ~l0 ~l1 ~l2 l3 l4 l5 l6 l7 ~l8 ~l9 l10 ~l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 18: ~l0 ~l1 ~l2 l3 l4 l5 l6 l7 ~l8 ~l9 l10 l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 19: ~l0 ~l1 ~l2 l3 l4 l5 l6 l7 ~l8 ~l9 ~l10 l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 20: ~l0 ~l1 ~l2 l3 ~l4 l5 l6 l7 ~l8 ~l9 ~l10 l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 21: ~l0 ~l1 ~l2 l3 ~l4 l5 l6 l7 ~l8 ~l9 l10 l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 22: ~l0 ~l1 ~l2 l3 ~l4 l5 l6 l7 ~l8 ~l9 ~l10 ~l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 23: ~l0 ~l1 ~l2 l3 l4 l5 l6 l7 ~l8 ~l9 ~l10 ~l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 24: ~l0 ~l1 ~l2 ~l3 ~l4 l5 l6 l7 ~l8 ~l9 l10 l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 25: ~l0 ~l1 ~l2 ~l3 ~l4 l5 l6 l7 ~l8 ~l9 l10 ~l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 26: ~l0 ~l1 ~l2 ~l3 l4 l5 l6 l7 ~l8 ~l9 l10 ~l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 27: ~l0 ~l1 ~l2 ~l3 l4 l5 l6 l7 ~l8 ~l9 l10 l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 28: ~l0 ~l1 ~l2 ~l3 l4 l5 l6 l7 ~l8 ~l9 ~l10 l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 29: ~l0 ~l1 ~l2 ~l3 ~l4 l5 l6 l7 ~l8 ~l9 ~l10 l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 30: ~l0 ~l1 ~l2 ~l3 ~l4 l5 l6 l7 ~l8 ~l9 ~l10 ~l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 31: ~l0 ~l1 ~l2 ~l3 l4 l5 l6 l7 ~l8 ~l9 ~l10 ~l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 32: ~l0 ~l1 ~l2 ~l3 l4 ~l5 l6 l7 ~l8 ~l9 ~l10 ~l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 33: ~l0 ~l1 ~l2 ~l3 ~l4 ~l5 l6 l7 ~l8 ~l9 ~l10 ~l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 34: ~l0 ~l1 ~l2 ~l3 ~l4 ~l5 l6 l7 ~l8 ~l9 ~l10 l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 35: ~l0 ~l1 ~l2 ~l3 ~l4 ~l5 l6 l7 ~l8 ~l9 l10 l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 36: ~l0 ~l1 ~l2 ~l3 l4 ~l5 l6 l7 ~l8 ~l9 ~l10 l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 37: ~l0 ~l1 ~l2 ~l3 l4 ~l5 l6 l7 ~l8 ~l9 l10 l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 38: ~l0 ~l1 ~l2 ~l3 l4 ~l5 l6 l7 ~l8 ~l9 l10 ~l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 39: ~l0 ~l1 ~l2 ~l3 ~l4 ~l5 l6 l7 ~l8 ~l9 l10 ~l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 40: ~l0 ~l1 ~l2 l3 l4 ~l5 l6 l7 ~l8 ~l9 ~l10 l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 41: ~l0 ~l1 ~l2 l3 l4 ~l5 l6 l7 ~l8 ~l9 ~l10 ~l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 42: ~l0 ~l1 ~l2 l3 ~l4 ~l5 l6 l7 ~l8 ~l9 ~l10 l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 43: ~l0 ~l1 ~l2 l3 ~l4 ~l5 l6 l7 ~l8 ~l9 ~l10 ~l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 44: ~l0 ~l1 ~l2 l3 ~l4 ~l5 l6 l7 ~l8 ~l9 l10 ~l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 45: ~l0 ~l1 ~l2 l3 l4 ~l5 l6 l7 ~l8 ~l9 l10 ~l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 46: ~l0 ~l1 ~l2 l3 l4 ~l5 l6 l7 ~l8 ~l9 l10 l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 47: ~l0 ~l1 ~l2 l3 ~l4 ~l5 l6 l7 ~l8 ~l9 l10 l11 ~l12 ~l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 48: ~l0 ~l1 ~l2 l3 ~l4 ~l5 l6 l7 ~l8 ~l9 l10 ~l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 49: ~l0 ~l1 ~l2 l3 l4 ~l5 l6 l7 ~l8 ~l9 l10 ~l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 50: ~l0 ~l1 ~l2 l3 l4 ~l5 l6 l7 ~l8 ~l9 l10 l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 51: ~l0 ~l1 ~l2 l3 ~l4 ~l5 l6 l7 ~l8 ~l9 l10 l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 52: ~l0 ~l1 ~l2 l3 ~l4 ~l5 l6 l7 ~l8 ~l9 ~l10 l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 53: ~l0 ~l1 ~l2 l3 ~l4 ~l5 l6 l7 ~l8 ~l9 ~l10 ~l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 54: ~l0 ~l1 ~l2 l3 l4 ~l5 l6 l7 ~l8 ~l9 ~l10 ~l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 55: ~l0 ~l1 ~l2 l3 l4 ~l5 l6 l7 ~l8 ~l9 ~l10 l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 56: ~l0 ~l1 ~l2 ~l3 l4 ~l5 l6 l7 ~l8 ~l9 ~l10 l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 57: ~l0 ~l1 ~l2 ~l3 ~l4 ~l5 l6 l7 ~l8 ~l9 ~l10 l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 58: ~l0 ~l1 ~l2 ~l3 ~l4 ~l5 l6 l7 ~l8 ~l9 ~l10 ~l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 59: ~l0 ~l1 ~l2 ~l3 l4 ~l5 l6 l7 ~l8 ~l9 ~l10 ~l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 60: ~l0 ~l1 ~l2 ~l3 l4 ~l5 l6 l7 ~l8 ~l9 l10 ~l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 61: ~l0 ~l1 ~l2 ~l3 l4 ~l5 l6 l7 ~l8 ~l9 l10 l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 62: ~l0 ~l1 ~l2 ~l3 ~l4 ~l5 l6 l7 ~l8 ~l9 l10 l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 63: ~l0 ~l1 ~l2 ~l3 ~l4 ~l5 l6 l7 ~l8 ~l9 l10 ~l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 64: ~l0 ~l1 ~l2 ~l3 ~l4 ~l5 l6 l7 ~l8 ~l9 l10 ~l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 65: ~l0 ~l1 ~l2 ~l3 l4 ~l5 l6 l7 ~l8 ~l9 l10 ~l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 66: ~l0 ~l1 ~l2 ~l3 l4 ~l5 l6 l7 ~l8 ~l9 l10 l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 67: ~l0 ~l1 ~l2 ~l3 l4 ~l5 l6 l7 ~l8 ~l9 ~l10 l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 68: ~l0 ~l1 ~l2 ~l3 ~l4 ~l5 l6 l7 ~l8 ~l9 l10 l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 69: ~l0 ~l1 ~l2 ~l3 ~l4 ~l5 l6 l7 ~l8 ~l9 ~l10 l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 70: ~l0 ~l1 ~l2 ~l3 ~l4 ~l5 l6 l7 ~l8 ~l9 ~l10 ~l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 71: ~l0 ~l1 ~l2 ~l3 l4 ~l5 l6 l7 ~l8 ~l9 ~l10 ~l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 72: ~l0 ~l1 ~l2 l3 ~l4 ~l5 l6 l7 ~l8 ~l9 l10 l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 73: ~l0 ~l1 ~l2 l3 ~l4 ~l5 l6 l7 ~l8 ~l9 l10 ~l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 74: ~l0 ~l1 ~l2 l3 ~l4 ~l5 l6 l7 ~l8 ~l9 ~l10 ~l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 75: ~l0 ~l1 ~l2 l3 ~l4 ~l5 l6 l7 ~l8 ~l9 ~l10 l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 76: ~l0 ~l1 ~l2 l3 l4 ~l5 l6 l7 ~l8 ~l9 ~l10 l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 77: ~l0 ~l1 ~l2 l3 l4 ~l5 l6 l7 ~l8 ~l9 l10 l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 78: ~l0 ~l1 ~l2 l3 l4 ~l5 l6 l7 ~l8 ~l9 ~l10 ~l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 79: ~l0 ~l1 ~l2 l3 l4 ~l5 l6 l7 ~l8 ~l9 l10 ~l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 80: ~l0 ~l1 ~l2 l3 ~l4 l5 l6 l7 ~l8 ~l9 l10 ~l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 81: ~l0 ~l1 ~l2 l3 l4 l5 l6 l7 ~l8 ~l9 l10 ~l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 82: ~l0 ~l1 ~l2 l3 ~l4 l5 l6 l7 ~l8 ~l9 ~l10 ~l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 83: ~l0 ~l1 ~l2 l3 l4 l5 l6 l7 ~l8 ~l9 ~l10 ~l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 84: ~l0 ~l1 ~l2 l3 l4 l5 l6 l7 ~l8 ~l9 ~l10 l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 85: ~l0 ~l1 ~l2 l3 l4 l5 l6 l7 ~l8 ~l9 l10 l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 86: ~l0 ~l1 ~l2 l3 ~l4 l5 l6 l7 ~l8 ~l9 l10 l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 87: ~l0 ~l1 ~l2 l3 ~l4 l5 l6 l7 ~l8 ~l9 ~l10 l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 88: ~l0 ~l1 ~l2 ~l3 ~l4 l5 l6 l7 ~l8 ~l9 ~l10 l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 89: ~l0 ~l1 ~l2 ~l3 l4 l5 l6 l7 ~l8 ~l9 ~l10 l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 90: ~l0 ~l1 ~l2 ~l3 ~l4 l5 l6 l7 ~l8 ~l9 l10 l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 91: ~l0 ~l1 ~l2 ~l3 l4 l5 l6 l7 ~l8 ~l9 l10 l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 92: ~l0 ~l1 ~l2 ~l3 l4 l5 l6 l7 ~l8 ~l9 l10 ~l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 93: ~l0 ~l1 ~l2 ~l3 l4 l5 l6 l7 ~l8 ~l9 ~l10 ~l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 94: ~l0 ~l1 ~l2 ~l3 ~l4 l5 l6 l7 ~l8 ~l9 ~l10 ~l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 95: ~l0 ~l1 ~l2 ~l3 ~l4 l5 l6 l7 ~l8 ~l9 l10 ~l11 l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 96: ~l0 ~l1 ~l2 ~l3 l4 l5 l6 l7 ~l8 ~l9 ~l10 ~l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 97: ~l0 ~l1 ~l2 ~l3 l4 l5 l6 l7 ~l8 ~l9 ~l10 l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 98: ~l0 ~l1 ~l2 ~l3 ~l4 l5 l6 l7 ~l8 ~l9 ~l10 ~l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+sample 99: ~l0 ~l1 ~l2 ~l3 ~l4 l5 l6 l7 ~l8 ~l9 ~l10 l11 ~l12 l13 ~l14 ~l15 ~l16 ~l17 ~l18 ~l19 ~l20 l21 ~l22 ~l23 l24 
+IF samples ends.
 border cube starts.
-frame: 3 border_cube:  i_rx_phy.rxdp_s1 ~i_rx_phy.fs_ce_r1 
-frame: 3 border_cube:  i_rx_phy.rxdn_t1 ~i_rx_phy.fs_ce_r1 
-frame: 6 border_cube:  ~i_tx_phy.txoe 
-frame: 6 border_cube:  rst_cnt[4] rst_cnt[3] 
-frame: 6 border_cube:  i_rx_phy.rxdp_s1 ~i_rx_phy.fs_ce 
-frame: 6 border_cube:  i_rx_phy.fs_state[0] i_tx_phy.txoe 
-frame: 6 border_cube:  ~i_rx_phy.fs_ce i_rx_phy.rxdn_t1 
-frame: 6 border_cube:  ~i_rx_phy.fs_ce i_rx_phy.fs_ce_d 
-frame: 6 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[0] i_rx_phy.fs_ce_r1 
-frame: 6 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[0] i_rx_phy.fs_ce 
-frame: 6 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[0] i_rx_phy.fs_ce_d 
-frame: 6 border_cube:  i_rx_phy.fs_state[0] ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] i_rx_phy.fs_ce_r1 
-frame: 7 border_cube:  i_rx_phy.fs_ce_r3 ~i_rx_phy.rx_en 
-frame: 7 border_cube:  ~i_rx_phy.rx_en i_rx_phy.fs_ce 
-frame: 7 border_cube:  ~i_rx_phy.rx_en i_rx_phy.fs_ce_d 
-frame: 7 border_cube:  ~i_rx_phy.rx_en i_rx_phy.fs_ce_r1 
-frame: 7 border_cube:  rst_cnt[4] rst_cnt[3] rst_cnt[2] 
-frame: 7 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[1] 
-frame: 7 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[1] i_rx_phy.fs_state[0] 
-frame: 7 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[1] i_rx_phy.fs_ce 
-frame: 7 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[1] i_rx_phy.fs_ce_r1 
-frame: 7 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[1] i_rx_phy.fs_ce 
-frame: 7 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[1] i_rx_phy.fs_ce_d 
-frame: 7 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[1] i_rx_phy.fs_ce_r1 
-frame: 8 border_cube:  i_rx_phy.fs_state[1] i_rx_phy.fs_state[0] 
-frame: 8 border_cube:  ~rst_cnt[1] ~i_rx_phy.rxdp_s1 i_rx_phy.fs_ce_d 
-frame: 8 border_cube:  ~i_rx_phy.rx_en i_tx_phy.txoe ~i_rx_phy.dpll_state[0] 
-frame: 8 border_cube:  i_rx_phy.fs_state[1] i_rx_phy.fs_state[0] i_rx_phy.fs_ce 
-frame: 8 border_cube:  rst_cnt[4] rst_cnt[3] rst_cnt[2] rst_cnt[0] 
-frame: 8 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[1] i_rx_phy.fs_state[0] 
-frame: 8 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[1] ~i_rx_phy.fs_ce 
-frame: 8 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[1] i_rx_phy.fs_state[0] i_rx_phy.fs_ce 
-frame: 8 border_cube:  ~i_rx_phy.rxdp_s i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[1] i_rx_phy.fs_ce ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] 
-frame: 9 border_cube:  ~i_rx_phy.fs_ce_r3 i_rx_phy.rxdn_t1 
-frame: 9 border_cube:  ~i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_d 
-frame: 9 border_cube:  ~rst_cnt[1] ~i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_d 
-frame: 9 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[2] i_rx_phy.fs_ce 
-frame: 9 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[1] i_rx_phy.fs_state[0] ~i_rx_phy.rxdn_s i_rx_phy.fs_ce ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] 
-frame: 10 border_cube:  ~rst_cnt[3] i_rx_phy.dpll_state[1] 
-frame: 10 border_cube:  ~rst_cnt[1] i_rx_phy.fs_ce_d 
-frame: 10 border_cube:  ~rst_cnt[0] i_rx_phy.fs_ce_d 
-frame: 10 border_cube:  ~usb_rst i_rx_phy.rxdn_t1 
-frame: 10 border_cube:  i_rx_phy.fs_state[2] i_rx_phy.fs_state[0] 
-frame: 10 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[2] i_rx_phy.fs_ce_d 
-frame: 10 border_cube:  i_rx_phy.fs_state[2] i_rx_phy.fs_ce i_rx_phy.fs_ce_d 
-frame: 10 border_cube:  rst_cnt[3] ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] i_rx_phy.fs_ce_r1 
-frame: 10 border_cube:  ~i_rx_phy.rxdp_s i_rx_phy.fs_state[2] ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] 
-frame: 10 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[2] i_rx_phy.fs_state[0] i_rx_phy.fs_ce 
-frame: 10 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[2] ~i_rx_phy.rxdp_s1r i_rx_phy.dpll_state[1] 
-frame: 11 border_cube:  i_rx_phy.rxdn_s1 i_rx_phy.dpll_state[1] 
-frame: 11 border_cube:  i_rx_phy.fs_state[2] i_rx_phy.fs_state[1] 
-frame: 11 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[2] i_rx_phy.fs_state[0] 
-frame: 11 border_cube:  i_rx_phy.fs_state[2] i_rx_phy.fs_state[0] i_rx_phy.fs_ce_d 
-frame: 11 border_cube:  i_rx_phy.fs_state[2] i_rx_phy.fs_state[0] i_rx_phy.fs_ce_r1 
-frame: 11 border_cube:  i_rx_phy.fs_state[2] i_rx_phy.fs_ce i_rx_phy.fs_ce_r1 
-frame: 11 border_cube:  i_rx_phy.fs_state[2] i_rx_phy.fs_state[0] i_rx_phy.rxdp_s1r i_rx_phy.dpll_state[0] 
-frame: 11 border_cube:  i_rx_phy.fs_state[2] i_rx_phy.fs_state[0] i_rx_phy.rxdp_s1r ~i_rx_phy.dpll_state[0] i_rx_phy.fs_ce_d 
-frame: 11 border_cube:  rst_cnt[4] rst_cnt[3] rst_cnt[2] rst_cnt[1] rst_cnt[0] ~usb_rst i_rx_phy.dpll_state[0] 
-frame: 11 border_cube:  ~i_rx_phy.rxdp_s i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[2] i_rx_phy.fs_state[0] i_rx_phy.rxdn_s ~i_rx_phy.dpll_state[1] ~i_rx_phy.dpll_state[0] 
-frame: 12 border_cube:  i_rx_phy.dpll_state[1] 
-frame: 12 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[2] i_rx_phy.fs_state[1] 
-frame: 12 border_cube:  i_rx_phy.fs_state[2] i_rx_phy.fs_state[0] i_rx_phy.fs_ce i_rx_phy.fs_ce_r1 
-frame: 12 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[2] i_rx_phy.fs_state[1] i_rx_phy.fs_state[0] ~i_rx_phy.dpll_state[1] 
-frame: 12 border_cube:  i_rx_phy.rx_en i_rx_phy.fs_state[2] i_rx_phy.fs_state[0] i_rx_phy.rxdp_s1r ~i_rx_phy.dpll_state[0] i_rx_phy.fs_ce_d 
-frame: 13 border_cube:  i_rx_phy.rx_active 
-frame: 13 border_cube:  i_rx_phy.synced_d i_rx_phy.fs_ce_d 
-frame: 13 border_cube:  i_rx_phy.fs_state[2] i_rx_phy.fs_state[1] i_rx_phy.fs_state[0] i_rx_phy.fs_ce ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] 
-frame: 14 border_cube:  i_rx_phy.bit_cnt[0] 
-frame: 14 border_cube:  ~i_rx_phy.dpll_state[0] 
-frame: 14 border_cube:  i_rx_phy.one_cnt[0] 
-frame: 14 border_cube:  i_rx_phy.shift_en i_rx_phy.fs_state[2] 
-frame: 14 border_cube:  i_rx_phy.fs_state[1] i_rx_phy.rx_active 
-frame: 14 border_cube:  i_rx_phy.rx_active i_rx_phy.fs_ce_r1 
-frame: 14 border_cube:  rst_cnt[3] i_rx_phy.synced_d i_rx_phy.shift_en 
-frame: 14 border_cube:  i_rx_phy.synced_d i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce_d 
-frame: 14 border_cube:  i_rx_phy.synced_d i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 14 border_cube:  i_rx_phy.rx_active i_rx_phy.fs_ce ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] 
-frame: 14 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.shift_en i_rx_phy.fs_state[2] i_rx_phy.fs_ce ~i_rx_phy.dpll_state[1] 
-frame: 14 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.shift_en i_rx_phy.fs_state[2] i_rx_phy.fs_ce i_rx_phy.dpll_state[1] 
-frame: 14 border_cube:  i_rx_phy.shift_en i_rx_phy.fs_state[0] i_rx_phy.fs_ce ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] 
-frame: 15 border_cube:  i_rx_phy.bit_cnt[1] 
-frame: 15 border_cube:  i_rx_phy.rxdp_s1 
-frame: 15 border_cube:  i_rx_phy.one_cnt[1] 
-frame: 15 border_cube:  ~rst_cnt[1] ~i_rx_phy.shift_en i_rx_phy.fs_ce_d 
-frame: 15 border_cube:  ~usb_rst ~i_rx_phy.shift_en i_rx_phy.rxdn_t1 
-frame: 15 border_cube:  ~i_rx_phy.bit_cnt[0] i_rx_phy.fs_state[1] i_rx_phy.rx_active 
-frame: 15 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.synced_d i_rx_phy.fs_ce_d 
-frame: 15 border_cube:  i_rx_phy.synced_d i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce_r1 
-frame: 15 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.shift_en i_rx_phy.fs_state[2] 
-frame: 15 border_cube:  i_rx_phy.shift_en i_rx_phy.fs_state[2] i_rx_phy.fs_state[1] 
-frame: 15 border_cube:  ~i_rx_phy.shift_en ~i_rx_phy.rx_active i_rx_phy.fs_ce_d 
-frame: 15 border_cube:  ~rst_cnt[3] ~rst_cnt[2] ~i_rx_phy.rx_active i_rx_phy.dpll_state[1] 
-frame: 15 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.rx_active i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 15 border_cube:  usb_rst i_rx_phy.synced_d i_rx_phy.fs_ce_r2 i_rx_phy.shift_en i_rx_phy.fs_ce_d 
-frame: 15 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[2] i_rx_phy.fs_state[1] i_rx_phy.rx_active i_rx_phy.fs_ce 
-frame: 15 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[2] i_rx_phy.rx_active i_rx_phy.fs_ce i_rx_phy.dpll_state[1] 
-frame: 15 border_cube:  i_rx_phy.fs_state[2] i_rx_phy.fs_state[1] i_rx_phy.rx_active i_rx_phy.fs_ce ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] 
-frame: 15 border_cube:  i_rx_phy.rxdn_s1r i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[2] i_rx_phy.fs_state[1] i_rx_phy.fs_state[0] i_rx_phy.rx_active ~i_rx_phy.rxdp_s1r ~i_rx_phy.dpll_state[1] ~i_rx_phy.dpll_state[0] 
-frame: 15 border_cube:  ~rst_cnt[2] ~rst_cnt[1] ~rst_cnt[0] i_rx_phy.bit_cnt[0] ~i_rx_phy.rxdn_s1r i_rx_phy.shift_en ~i_rx_phy.rxdp_s1r i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] i_rx_phy.fs_ce_d 
-frame: 16 border_cube:  i_rx_phy.rxdp_s 
-frame: 16 border_cube:  i_rx_phy.rxdn_s1r 
-frame: 16 border_cube:  i_rx_phy.rxdn_s 
-frame: 16 border_cube:  i_rx_phy.rxdp_s1r 
-frame: 16 border_cube:  i_rx_phy.one_cnt[2] 
-frame: 16 border_cube:  i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] 
-frame: 16 border_cube:  ~i_rx_phy.shift_en i_rx_phy.rxdp_s1 
-frame: 16 border_cube:  ~i_rx_phy.shift_en i_rx_phy.dpll_state[1] 
-frame: 16 border_cube:  i_rx_phy.bit_cnt[1] i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 16 border_cube:  i_rx_phy.synced_d i_rx_phy.rx_active i_rx_phy.fs_ce_d 
-frame: 16 border_cube:  i_rx_phy.synced_d i_rx_phy.fs_ce i_rx_phy.fs_ce_d 
-frame: 16 border_cube:  ~i_rx_phy.rxdp_s1 ~i_rx_phy.rxdn_s1 i_rx_phy.fs_ce_d 
-frame: 16 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.shift_en i_rx_phy.fs_state[2] i_rx_phy.fs_state[1] 
-frame: 16 border_cube:  i_rx_phy.synced_d i_rx_phy.fs_ce_r2 i_rx_phy.shift_en i_rx_phy.fs_ce_r1 
-frame: 16 border_cube:  i_rx_phy.synced_d i_rx_phy.shift_en i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 16 border_cube:  i_rx_phy.synced_d i_rx_phy.fs_ce ~i_rx_phy.dpll_state[1] i_rx_phy.fs_ce_d 
-frame: 16 border_cube:  i_rx_phy.synced_d i_rx_phy.fs_ce i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 16 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.rx_active i_rx_phy.fs_ce i_rx_phy.fs_ce_r1 
-frame: 16 border_cube:  i_rx_phy.rx_active i_rx_phy.fs_ce i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 16 border_cube:  ~rst_cnt[3] ~rst_cnt[2] ~i_rx_phy.rx_active i_rx_phy.dpll_state[1] ~i_rx_phy.fs_ce_d 
-frame: 16 border_cube:  rst_cnt[2] rst_cnt[1] rst_cnt[0] i_rx_phy.bit_cnt[1] ~i_rx_phy.dpll_state[1] i_tx_phy.append_eop_sync3 i_rx_phy.fs_ce_r1 
-frame: 16 border_cube:  i_rx_phy.shift_en i_rx_phy.fs_state[2] i_rx_phy.fs_state[1] i_rx_phy.fs_state[0] i_rx_phy.fs_ce ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] 
-frame: 16 border_cube:  ~i_rx_phy.bit_cnt[0] i_rx_phy.fs_state[2] i_rx_phy.fs_state[1] i_rx_phy.fs_state[0] i_rx_phy.rx_active i_rx_phy.fs_ce ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] 
-frame: 16 border_cube:  ~i_rx_phy.bit_cnt[0] i_rx_phy.shift_en i_rx_phy.fs_state[2] i_rx_phy.fs_state[1] i_rx_phy.fs_state[0] i_rx_phy.rx_active i_rx_phy.fs_ce ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] 
-frame: 17 border_cube:  i_rx_phy.bit_cnt[2] 
-frame: 17 border_cube:  i_rx_phy.fs_state[0] 
-frame: 17 border_cube:  ~i_rx_phy.shift_en i_rx_phy.rxdn_s1 
-frame: 17 border_cube:  ~i_rx_phy.shift_en i_rx_phy.rxdn_t1 
-frame: 17 border_cube:  ~i_rx_phy.shift_en i_rx_phy.rxdp_t1 
-frame: 17 border_cube:  ~i_rx_phy.shift_en ~i_rx_phy.dpll_state[0] 
-frame: 17 border_cube:  ~i_rx_phy.shift_en i_rx_phy.fs_ce_d 
-frame: 17 border_cube:  ~i_rx_phy.shift_en i_rx_phy.fs_ce_r1 
-frame: 17 border_cube:  i_rx_phy.one_cnt[2] i_rx_phy.one_cnt[1] 
-frame: 17 border_cube:  i_rx_phy.synced_d i_rx_phy.shift_en i_rx_phy.fs_ce_d 
-frame: 17 border_cube:  i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce_r1 
-frame: 17 border_cube:  i_rx_phy.bit_cnt[1] i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 17 border_cube:  i_rx_phy.bit_cnt[0] i_rx_phy.rx_active i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 17 border_cube:  i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.rx_active 
-frame: 17 border_cube:  i_rx_phy.bit_cnt[1] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.rx_active i_rx_phy.fs_ce_r1 
-frame: 17 border_cube:  rst_cnt[4] rst_cnt[3] rst_cnt[2] rst_cnt[1] rst_cnt[0] ~usb_rst 
-frame: 18 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[0] 
-frame: 18 border_cube:  ~i_rx_phy.shift_en i_rx_phy.rxdn_s 
-frame: 18 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 
-frame: 18 border_cube:  i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce_r1 
-frame: 18 border_cube:  i_rx_phy.bit_cnt[1] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 18 border_cube:  i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.rx_active i_rx_phy.fs_ce_d 
-frame: 19 border_cube:  i_rx_phy.synced_d 
-frame: 19 border_cube:  i_rx_phy.fs_state[2] 
-frame: 19 border_cube:  i_rx_phy.fs_state[1] 
-frame: 19 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] 
-frame: 19 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce 
-frame: 19 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] ~i_rx_phy.rx_en i_rx_phy.shift_en ~i_rx_phy.rx_active 
-frame: 19 border_cube:  i_rx_phy.bit_cnt[1] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 19 border_cube:  i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.rx_active i_rx_phy.fs_ce i_rx_phy.fs_ce_d 
-frame: 20 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.fs_ce_r3 
-frame: 20 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce 
-frame: 20 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce i_rx_phy.fs_ce_r1 
-frame: 20 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[0] ~i_rx_phy.rx_en i_rx_phy.fs_ce_r2 i_tx_phy.txoe i_rx_phy.fs_ce 
-frame: 20 border_cube:  i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce i_rx_phy.fs_ce_r1 
-frame: 21 border_cube:  i_rx_phy.rx_valid1 i_rx_phy.fs_ce_r3 
-frame: 21 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] 
-frame: 21 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.fs_ce 
-frame: 21 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r3 
-frame: 21 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce 
-frame: 22 border_cube:  i_rx_phy.rx_valid1 
-frame: 22 border_cube:  i_rx_phy.rx_valid 
-frame: 22 border_cube:  i_rx_phy.rx_valid_r 
-frame: 22 border_cube:  rst_cnt[1] i_rx_phy.rxdn_s 
-frame: 22 border_cube:  i_rx_phy.rxdp_s ~i_rx_phy.rxdp_s1r 
-frame: 22 border_cube:  ~i_rx_phy.rxdp_s i_rx_phy.rxdp_s1r 
-frame: 22 border_cube:  i_rx_phy.rx_valid1 i_rx_phy.fs_ce 
-frame: 22 border_cube:  ~i_rx_phy.rxdn_s1r i_rx_phy.rxdn_s 
-frame: 22 border_cube:  i_rx_phy.synced_d i_rx_phy.fs_state[0] 
-frame: 22 border_cube:  i_tx_phy.txoe_r2 i_rx_phy.rx_valid1 ~i_rx_phy.shift_en 
-frame: 22 border_cube:  i_tx_phy.txoe_r2 i_rx_phy.rx_valid1 ~i_rx_phy.rx_active 
-frame: 22 border_cube:  usb_rst i_rx_phy.rx_valid1 i_rx_phy.fs_ce 
-frame: 22 border_cube:  i_rx_phy.bit_cnt[2] ~i_rx_phy.dpll_state[1] i_rx_phy.fs_ce_d 
-frame: 22 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 22 border_cube:  i_rx_phy.bit_cnt[0] ~i_rx_phy.dpll_state[1] i_rx_phy.fs_ce_d 
-frame: 22 border_cube:  i_rx_phy.rx_valid1 ~i_rx_phy.rx_en ~i_rx_phy.rx_active 
-frame: 22 border_cube:  i_rx_phy.rx_valid1 ~i_rx_phy.rx_active ~i_tx_phy.txoe 
-frame: 22 border_cube:  i_rx_phy.rx_valid1 ~i_rx_phy.rx_active i_rx_phy.fs_ce 
-frame: 22 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[2] i_rx_phy.fs_ce_d 
-frame: 22 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[2] i_rx_phy.fs_ce_r1 
-frame: 22 border_cube:  i_rx_phy.fs_state[2] ~i_rx_phy.dpll_state[1] i_rx_phy.fs_ce_d 
-frame: 22 border_cube:  i_rx_phy.fs_state[2] i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 22 border_cube:  i_rx_phy.fs_state[1] ~i_rx_phy.dpll_state[1] i_rx_phy.fs_ce_d 
-frame: 22 border_cube:  i_rx_phy.fs_state[1] i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 22 border_cube:  i_rx_phy.fs_state[0] ~i_rx_phy.dpll_state[1] i_rx_phy.fs_ce_d 
-frame: 22 border_cube:  i_rx_phy.rx_active ~i_rx_phy.dpll_state[1] i_rx_phy.fs_ce_d 
-frame: 22 border_cube:  ~i_rx_phy.dpll_state[1] i_rx_phy.one_cnt[1] i_rx_phy.fs_ce_d 
-frame: 22 border_cube:  ~i_rx_phy.dpll_state[1] i_rx_phy.one_cnt[0] i_rx_phy.fs_ce_d 
-frame: 22 border_cube:  i_tx_phy.txoe_r2 i_rx_phy.synced_d i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce 
-frame: 22 border_cube:  i_tx_phy.txoe_r1 i_rx_phy.rx_valid1 ~i_rx_phy.shift_en i_rx_phy.one_cnt[1] 
-frame: 22 border_cube:  i_tx_phy.txoe_r1 i_rx_phy.rx_valid1 ~i_rx_phy.rx_active i_rx_phy.one_cnt[2] 
-frame: 22 border_cube:  i_tx_phy.txoe_r1 i_rx_phy.synced_d i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce 
-frame: 22 border_cube:  i_tx_phy.txoe_r1 i_rx_phy.synced_d i_rx_phy.shift_en ~i_rx_phy.rx_active 
-frame: 22 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce 
-frame: 22 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r1 
-frame: 22 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce_d 
-frame: 22 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce_d 
-frame: 22 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce_r1 
-frame: 22 border_cube:  i_rx_phy.bit_cnt[2] ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] i_rx_phy.fs_ce_r1 
-frame: 22 border_cube:  i_rx_phy.rx_valid1 i_rx_phy.shift_en ~i_rx_phy.rx_active ~i_tx_phy.txoe 
-frame: 22 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.synced_d i_rx_phy.sd_nrzi i_rx_phy.fs_ce_r1 
-frame: 22 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[2] i_rx_phy.fs_state[0] 
-frame: 22 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[2] i_rx_phy.fs_state[1] i_rx_phy.fs_ce_r1 
-frame: 22 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[2] i_rx_phy.fs_state[0] i_rx_phy.fs_ce_r1 
-frame: 22 border_cube:  i_rx_phy.synced_d i_tx_phy.tx_ip_sync i_rx_phy.shift_en ~i_rx_phy.rx_active 
-frame: 22 border_cube:  i_rx_phy.synced_d i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce i_rx_phy.sd_nrzi 
-frame: 22 border_cube:  i_rx_phy.synced_d i_rx_phy.fs_ce_r2 i_rx_phy.one_cnt[0] i_rx_phy.fs_ce_r1 
-frame: 22 border_cube:  i_rx_phy.synced_d i_rx_phy.shift_en ~i_rx_phy.rx_active i_tx_phy.tx_ip 
-frame: 22 border_cube:  i_rx_phy.synced_d i_rx_phy.one_cnt[2] i_rx_phy.one_cnt[1] i_rx_phy.one_cnt[0] 
-frame: 22 border_cube:  i_rx_phy.fs_state[2] ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] i_rx_phy.fs_ce_r1 
-frame: 22 border_cube:  i_rx_phy.fs_state[1] ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] i_rx_phy.fs_ce_r1 
-frame: 22 border_cube:  ~i_rx_phy.sd_nrzi i_rx_phy.one_cnt[0] i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 22 border_cube:  rst_cnt[4] ~rst_cnt[1] ~rst_cnt[0] i_rx_phy.synced_d i_rx_phy.rx_active 
-frame: 22 border_cube:  i_tx_phy.txoe_r2 i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] ~i_rx_phy.rx_active 
-frame: 22 border_cube:  i_tx_phy.txoe_r2 i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.shift_en ~i_rx_phy.rx_active 
-frame: 22 border_cube:  i_tx_phy.txoe_r1 i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] ~i_rx_phy.rx_active 
-frame: 22 border_cube:  i_tx_phy.txoe_r1 i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.shift_en ~i_rx_phy.rx_active 
-frame: 22 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce 
-frame: 22 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] ~i_rx_phy.rx_active ~i_tx_phy.txoe 
-frame: 22 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce 
-frame: 22 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_tx_phy.tx_ip_sync i_rx_phy.shift_en ~i_rx_phy.rx_active 
-frame: 22 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.one_cnt[2] i_rx_phy.one_cnt[1] i_rx_phy.one_cnt[0] 
-frame: 22 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r2 i_rx_phy.sd_nrzi i_rx_phy.fs_ce_r1 
-frame: 22 border_cube:  i_rx_phy.bit_cnt[0] i_rx_phy.sd_nrzi ~i_rx_phy.one_cnt[0] i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 22 border_cube:  ~i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r2 ~i_rx_phy.sd_nrzi i_rx_phy.one_cnt[0] i_rx_phy.fs_ce_r1 
-frame: 22 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[2] ~i_rx_phy.rxdp_s1r i_rx_phy.dpll_state[1] 
-frame: 22 border_cube:  rst_cnt[3] ~rst_cnt[1] ~rst_cnt[0] i_rx_phy.synced_d i_rx_phy.fs_ce_d ~i_rx_phy.fs_ce_r1 
-frame: 22 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] i_rx_phy.shift_en ~i_rx_phy.rx_active ~i_tx_phy.txoe 
-frame: 22 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce i_rx_phy.one_cnt[0] 
-frame: 22 border_cube:  rst_cnt[4] rst_cnt[3] rst_cnt[2] rst_cnt[1] rst_cnt[0] ~usb_rst i_rx_phy.rx_valid1 i_rx_phy.fs_ce_r3 
-frame: 22 border_cube:  rst_cnt[4] rst_cnt[3] rst_cnt[2] rst_cnt[1] rst_cnt[0] ~usb_rst i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce 
-frame: 22 border_cube:  rst_cnt[4] rst_cnt[3] rst_cnt[2] rst_cnt[1] rst_cnt[0] ~usb_rst i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce i_rx_phy.sd_nrzi 
-frame: 23 border_cube:  usb_rst 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r3 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r2 
-frame: 23 border_cube:  i_rx_phy.shift_en 
-frame: 23 border_cube:  i_rx_phy.rxdn_s1 
-frame: 23 border_cube:  i_rx_phy.fs_ce 
-frame: 23 border_cube:  i_rx_phy.rxdn_t1 
-frame: 23 border_cube:  i_rx_phy.rxdp_t1 
-frame: 23 border_cube:  i_rx_phy.fs_ce_d 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  rst_cnt[2] i_rx_phy.rxdn_s1r 
-frame: 23 border_cube:  rst_cnt[2] i_rx_phy.synced_d 
-frame: 23 border_cube:  rst_cnt[2] i_rx_phy.rxdp_s1r 
-frame: 23 border_cube:  rst_cnt[0] i_rx_phy.rxdn_s 
-frame: 23 border_cube:  i_tx_phy.txoe_r2 i_tx_phy.txoe 
-frame: 23 border_cube:  usb_rst i_rx_phy.synced_d 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[2] ~i_rx_phy.rx_active 
-frame: 23 border_cube:  i_rx_phy.rx_valid1 ~i_rx_phy.rx_active 
-frame: 23 border_cube:  i_rx_phy.rxdn_s1r ~i_rx_phy.rxdn_s 
-frame: 23 border_cube:  i_rx_phy.synced_d i_rx_phy.fs_state[2] 
-frame: 23 border_cube:  i_rx_phy.synced_d i_rx_phy.fs_state[1] 
-frame: 23 border_cube:  rst_cnt[4] usb_rst i_rx_phy.synced_d 
-frame: 23 border_cube:  ~i_tx_phy.txoe_r2 i_rx_phy.rx_en ~i_tx_phy.txoe 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.synced_d ~i_rx_phy.dpll_state[0] 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[2] 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r3 ~i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[2] i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce 
-frame: 23 border_cube:  ~i_rx_phy.rx_en i_rx_phy.fs_state[2] i_tx_phy.txoe 
-frame: 23 border_cube:  ~i_rx_phy.rx_en i_rx_phy.fs_state[1] i_tx_phy.txoe 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce_d ~i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~i_rx_phy.shift_en i_rx_phy.fs_state[1] i_rx_phy.rx_active 
-frame: 23 border_cube:  ~i_rx_phy.shift_en i_rx_phy.fs_state[0] i_rx_phy.rx_active 
-frame: 23 border_cube:  ~i_rx_phy.dpll_state[1] ~i_rx_phy.dpll_state[0] i_rx_phy.fs_ce_d 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce_d 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] i_rx_phy.shift_en ~i_rx_phy.rx_active 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[1] i_rx_phy.synced_d i_rx_phy.shift_en ~i_rx_phy.rx_active 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[1] i_rx_phy.rx_active i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[0] i_rx_phy.synced_d i_rx_phy.shift_en ~i_rx_phy.rx_active 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.synced_d ~i_rx_phy.dpll_state[0] i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[2] i_rx_phy.fs_state[1] 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[2] i_rx_phy.fs_state[1] i_rx_phy.fs_ce 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[2] i_rx_phy.fs_ce i_rx_phy.fs_ce_d 
-frame: 23 border_cube:  i_rx_phy.synced_d i_rx_phy.fs_ce_r2 i_rx_phy.rx_active i_rx_phy.fs_ce 
-frame: 23 border_cube:  i_rx_phy.synced_d i_rx_phy.shift_en ~i_rx_phy.rx_active ~i_tx_phy.txoe 
-frame: 23 border_cube:  i_rx_phy.synced_d ~i_tx_phy.txoe i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[2] i_rx_phy.fs_state[1] i_rx_phy.fs_ce 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[2] i_rx_phy.fs_state[0] i_rx_phy.dpll_state[1] 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[1] i_rx_phy.fs_state[0] i_rx_phy.fs_ce_d 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[1] i_rx_phy.fs_state[0] i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  i_rx_phy.fs_state[2] i_rx_phy.dpll_state[1] ~i_rx_phy.dpll_state[0] i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] ~i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  rst_cnt[2] rst_cnt[1] i_tx_phy.append_eop_sync2 i_rx_phy.dpll_state[0] i_rx_phy.fs_ce_d 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.rx_en i_rx_phy.fs_ce_r2 ~i_tx_phy.txoe i_rx_phy.fs_ce_d 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] i_rx_phy.rx_active i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~i_rx_phy.rxdp_s i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[2] i_rx_phy.dpll_state[0] i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~i_rx_phy.rxdp_s i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[2] i_rx_phy.fs_ce i_rx_phy.dpll_state[0] 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[1] i_rx_phy.fs_state[0] ~i_rx_phy.fs_ce 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[1] ~i_rx_phy.fs_ce i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[2] i_rx_phy.fs_state[1] i_rx_phy.fs_state[0] i_rx_phy.fs_ce 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[1] i_rx_phy.fs_state[0] i_rx_phy.fs_ce i_rx_phy.fs_ce_d 
-frame: 23 border_cube:  ~i_rx_phy.rx_en i_rx_phy.fs_state[0] i_tx_phy.txoe i_rx_phy.dpll_state[0] i_rx_phy.fs_ce_d 
-frame: 23 border_cube:  i_tx_phy.txoe_r1 i_rx_phy.bit_cnt[0] i_rx_phy.rx_active ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r3 ~i_rx_phy.rx_active i_rx_phy.fs_ce 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[1] i_rx_phy.bit_cnt[0] ~i_rx_phy.rx_en i_rx_phy.shift_en ~i_rx_phy.rx_active 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r3 ~i_rx_phy.rx_en i_rx_phy.fs_ce i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[2] i_rx_phy.fs_ce_r3 ~i_rx_phy.rx_en i_rx_phy.fs_ce_r2 i_rx_phy.fs_ce i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~i_rx_phy.rxdp_s i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[1] ~i_rx_phy.fs_state[0] i_rx_phy.fs_ce i_rx_phy.dpll_state[0] 
-frame: 23 border_cube:  ~i_rx_phy.synced_d ~i_rx_phy.rx_valid ~i_rx_phy.rx_valid_r ~i_rx_phy.fs_ce ~i_rx_phy.fs_ce_d ~i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~i_rx_phy.rx_en i_rx_phy.fs_ce_r2 i_rx_phy.rx_active ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.shift_en i_rx_phy.fs_ce i_rx_phy.one_cnt[0] i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r2 i_rx_phy.rx_active i_rx_phy.fs_ce ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  i_tx_phy.txoe_r2 i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.rx_active i_rx_phy.fs_ce i_rx_phy.fs_ce_d 
-frame: 23 border_cube:  ~usb_rst ~i_rx_phy.rx_valid_r ~i_rx_phy.rx_active ~i_rx_phy.rxdn_s ~i_rx_phy.fs_ce ~i_rx_phy.fs_ce_d ~i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  i_rx_phy.bit_cnt[0] i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.rx_active ~i_tx_phy.txoe i_rx_phy.fs_ce_d i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~i_rx_phy.rxdp_s i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[2] i_rx_phy.fs_state[0] i_rx_phy.rxdn_s i_rx_phy.fs_ce ~i_rx_phy.dpll_state[0] 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.rx_en i_rx_phy.rx_active ~i_tx_phy.txoe ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_ce_r2 i_rx_phy.fs_state[1] i_rx_phy.fs_state[0] ~i_rx_phy.rxdn_s ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] 
-frame: 23 border_cube:  ~i_rx_phy.synced_d ~i_rx_phy.fs_ce_r2 ~i_rx_phy.rx_valid ~i_rx_phy.rx_valid_r ~i_rx_phy.rxdn_t1 ~i_rx_phy.rxdp_t1 ~i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r3 ~i_rx_phy.rx_en i_rx_phy.fs_ce_r2 i_rx_phy.shift_en i_rx_phy.rx_active ~i_tx_phy.txoe i_rx_phy.fs_ce i_rx_phy.fs_ce_d 
-frame: 23 border_cube:  i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[2] i_rx_phy.fs_state[0] i_rx_phy.rxdn_s i_rx_phy.fs_ce ~i_rx_phy.rxdp_s1r ~i_rx_phy.dpll_state[1] ~i_rx_phy.dpll_state[0] 
-frame: 23 border_cube:  ~i_rx_phy.rxdp_s i_rx_phy.fs_ce_r3 i_rx_phy.fs_state[2] i_rx_phy.fs_state[0] i_rx_phy.rx_active i_rx_phy.rxdn_s i_rx_phy.fs_ce ~i_rx_phy.dpll_state[1] ~i_rx_phy.dpll_state[0] 
-frame: 23 border_cube:  ~rst_cnt[4] ~i_rx_phy.fs_ce_r3 ~i_rx_phy.synced_d ~i_rx_phy.fs_ce_r2 ~i_rx_phy.rx_valid ~i_rx_phy.rxdp_s1 ~i_rx_phy.rx_valid_r ~i_rx_phy.rxdn_s1 ~i_rx_phy.rxdn_t1 ~i_rx_phy.rxdp_t1 
-frame: 23 border_cube:  ~rst_cnt[3] ~i_rx_phy.fs_ce_r3 ~i_rx_phy.synced_d ~i_rx_phy.fs_ce_r2 ~i_rx_phy.rx_valid ~i_rx_phy.rxdp_s1 ~i_rx_phy.rx_valid_r ~i_rx_phy.rxdn_s1 ~i_rx_phy.rxdn_t1 ~i_rx_phy.rxdp_t1 
-frame: 23 border_cube:  ~rst_cnt[3] ~i_rx_phy.fs_ce_r3 ~i_rx_phy.synced_d ~i_rx_phy.fs_ce_r2 ~i_rx_phy.rxdp_s1 ~i_rx_phy.rx_valid_r ~i_rx_phy.rxdn_s1 ~i_rx_phy.rx_active ~i_rx_phy.rxdn_t1 ~i_rx_phy.rxdp_t1 
-frame: 23 border_cube:  ~rst_cnt[2] ~i_rx_phy.fs_ce_r3 ~i_rx_phy.synced_d ~i_rx_phy.fs_ce_r2 ~i_rx_phy.rx_valid ~i_rx_phy.rxdp_s1 ~i_rx_phy.rx_valid_r ~i_rx_phy.rxdn_s1 ~i_rx_phy.rxdn_t1 ~i_rx_phy.rxdp_t1 
-frame: 23 border_cube:  ~rst_cnt[1] ~i_rx_phy.fs_ce_r3 ~i_rx_phy.synced_d ~i_rx_phy.fs_ce_r2 ~i_rx_phy.rx_valid ~i_rx_phy.rxdp_s1 ~i_rx_phy.rx_valid_r ~i_rx_phy.rxdn_s1 ~i_rx_phy.rxdn_t1 ~i_rx_phy.rxdp_t1 
-frame: 23 border_cube:  ~rst_cnt[0] ~i_rx_phy.fs_ce_r3 ~i_rx_phy.synced_d ~i_rx_phy.fs_ce_r2 ~i_rx_phy.rx_valid ~i_rx_phy.rxdp_s1 ~i_rx_phy.rx_valid_r ~i_rx_phy.rxdn_s1 ~i_rx_phy.rxdn_t1 ~i_rx_phy.rxdp_t1 
-frame: 23 border_cube:  ~rst_cnt[0] ~i_rx_phy.fs_ce_r3 ~i_rx_phy.fs_ce_r2 ~i_rx_phy.shift_en ~i_rx_phy.rx_valid ~i_rx_phy.rx_valid_r ~i_rx_phy.rxdn_s1 ~i_rx_phy.fs_ce ~i_rx_phy.fs_ce_d ~i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~i_rx_phy.rx_valid1 ~i_rx_phy.fs_ce_r3 ~i_rx_phy.fs_ce_r2 ~i_rx_phy.shift_en ~i_rx_phy.rx_valid ~i_rx_phy.rx_valid_r ~i_rx_phy.fs_ce ~i_rx_phy.rxdn_t1 ~i_rx_phy.fs_ce_d ~i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~i_rx_phy.rx_valid1 ~i_rx_phy.fs_ce_r3 ~i_rx_phy.fs_ce_r2 ~i_rx_phy.shift_en ~i_rx_phy.rx_valid_r ~i_rx_phy.rx_active ~i_rx_phy.fs_ce ~i_rx_phy.rxdn_t1 ~i_rx_phy.fs_ce_d ~i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~rst_cnt[4] ~i_rx_phy.rx_valid1 ~i_rx_phy.fs_ce_r3 ~i_rx_phy.fs_ce_r2 ~i_rx_phy.shift_en ~i_rx_phy.rx_valid ~i_rx_phy.rx_valid_r ~i_rx_phy.rxdn_s1 ~i_rx_phy.fs_ce ~i_rx_phy.fs_ce_d ~i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~rst_cnt[3] ~i_rx_phy.rx_valid1 ~i_rx_phy.fs_ce_r3 ~i_rx_phy.fs_ce_r2 ~i_rx_phy.shift_en ~i_rx_phy.rx_valid ~i_rx_phy.rx_valid_r ~i_rx_phy.rxdn_s1 ~i_rx_phy.fs_ce ~i_rx_phy.fs_ce_d ~i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~rst_cnt[2] ~i_rx_phy.rx_valid1 ~i_rx_phy.fs_ce_r3 ~i_rx_phy.fs_ce_r2 ~i_rx_phy.shift_en ~i_rx_phy.rx_valid ~i_rx_phy.rx_valid_r ~i_rx_phy.rxdn_s1 ~i_rx_phy.fs_ce ~i_rx_phy.fs_ce_d ~i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~rst_cnt[1] ~i_rx_phy.rx_valid1 ~i_rx_phy.fs_ce_r3 ~i_rx_phy.fs_ce_r2 ~i_rx_phy.shift_en ~i_rx_phy.rx_valid ~i_rx_phy.rx_valid_r ~i_rx_phy.rxdn_s1 ~i_rx_phy.fs_ce ~i_rx_phy.fs_ce_d ~i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~rst_cnt[1] ~i_rx_phy.rx_valid1 ~i_rx_phy.fs_ce_r3 ~i_rx_phy.fs_ce_r2 ~i_rx_phy.shift_en ~i_rx_phy.rx_valid_r ~i_rx_phy.rxdn_s1 ~i_rx_phy.rx_active ~i_rx_phy.fs_ce ~i_rx_phy.fs_ce_d ~i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~rst_cnt[0] ~i_rx_phy.rx_valid1 ~i_rx_phy.fs_ce_r3 ~i_rx_phy.fs_ce_r2 ~i_rx_phy.shift_en ~i_rx_phy.rx_valid_r ~i_rx_phy.rxdn_s1 ~i_rx_phy.rx_active ~i_rx_phy.fs_ce ~i_rx_phy.fs_ce_d ~i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~rst_cnt[1] ~rst_cnt[0] ~usb_rst ~i_rx_phy.rx_valid1 ~i_rx_phy.fs_ce_r3 ~i_rx_phy.fs_ce_r2 ~i_rx_phy.shift_en ~i_rx_phy.rx_valid ~i_rx_phy.rx_valid_r ~i_rx_phy.rxdn_s ~i_rx_phy.fs_ce ~i_rx_phy.rxdn_t1 ~i_rx_phy.rxdp_t1 ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] ~i_rx_phy.fs_ce_d ~i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~rst_cnt[1] ~usb_rst ~i_rx_phy.bit_cnt[0] ~i_rx_phy.rx_valid1 ~i_rx_phy.fs_ce_r3 ~i_rx_phy.fs_ce_r2 ~i_rx_phy.shift_en ~i_rx_phy.rx_valid ~i_rx_phy.rx_valid_r ~i_rx_phy.rxdn_s ~i_rx_phy.fs_ce ~i_rx_phy.rxdn_t1 ~i_rx_phy.rxdp_t1 ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] ~i_rx_phy.fs_ce_d ~i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~rst_cnt[0] ~usb_rst ~i_rx_phy.bit_cnt[1] ~i_rx_phy.rx_valid1 ~i_rx_phy.fs_ce_r3 ~i_rx_phy.synced_d ~i_rx_phy.fs_ce_r2 ~i_rx_phy.shift_en ~i_rx_phy.rx_valid_r ~i_rx_phy.rx_active ~i_rx_phy.rxdn_s ~i_rx_phy.fs_ce ~i_rx_phy.rxdn_t1 ~i_rx_phy.rxdp_t1 ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] ~i_rx_phy.fs_ce_d ~i_rx_phy.fs_ce_r1 
-frame: 23 border_cube:  ~rst_cnt[3] ~rst_cnt[2] ~usb_rst ~i_rx_phy.bit_cnt[0] ~i_rx_phy.rx_valid1 ~i_rx_phy.rxdn_s1r ~i_rx_phy.fs_ce_r3 ~i_rx_phy.synced_d ~i_rx_phy.rxdp_s1 ~i_rx_phy.rx_valid_r ~i_rx_phy.rxdn_s1 ~i_rx_phy.rx_active ~i_rx_phy.rxdn_s ~i_rx_phy.fs_ce ~i_rx_phy.rxdp_s1r ~i_rx_phy.rxdn_t1 ~i_rx_phy.rxdp_t1 ~i_rx_phy.dpll_state[1] i_rx_phy.dpll_state[0] 
+frame: 2 border_cube:  l23 
+frame: 2 border_cube:  l0 ~l22 l23 
+frame: 2 border_cube:  l2 l7 l23 
+frame: 2 border_cube:  l2 ~l22 l23 
+frame: 2 border_cube:  l15 l16 l23 
+frame: 2 border_cube:  l0 ~l1 ~l22 l23 
+frame: 2 border_cube:  ~l0 l1 ~l22 l23 
+frame: 2 border_cube:  ~l0 ~l7 l14 l23 
+frame: 2 border_cube:  ~l1 ~l7 l15 l23 
+frame: 2 border_cube:  ~l7 l14 l15 l23 
+frame: 2 border_cube:  l14 l15 l16 l23 
+frame: 2 border_cube:  l0 ~l1 l14 l15 l23 
+frame: 2 border_cube:  l0 l2 ~l7 l14 l23 
+frame: 2 border_cube:  l0 l2 ~l7 l22 l23 
+frame: 2 border_cube:  l1 l2 ~l7 l22 l23 
+frame: 2 border_cube:  ~l1 ~l7 l15 l22 l23 
+frame: 2 border_cube:  ~l0 l2 l7 l8 ~l22 l23 
+frame: 2 border_cube:  ~l0 l2 ~l7 l8 ~l22 l23 
+frame: 2 border_cube:  l1 l7 ~l21 ~l22 l23 l24 
+frame: 2 border_cube:  l1 ~l7 ~l21 ~l22 l23 l24 
+frame: 2 border_cube:  l0 ~l1 l7 ~l21 ~l22 l23 l24 
+frame: 3 border_cube:  l7 l15 l23 
+frame: 3 border_cube:  l7 l22 l23 
+frame: 3 border_cube:  l8 l22 l23 
+frame: 3 border_cube:  l9 l14 l23 
+frame: 3 border_cube:  l9 l15 l23 
+frame: 3 border_cube:  l9 l18 l23 
+frame: 3 border_cube:  l9 l22 l23 
+frame: 3 border_cube:  l0 l1 ~l22 l23 
+frame: 3 border_cube:  ~l0 l7 l14 l23 
+frame: 3 border_cube:  ~l0 l7 l22 l23 
+frame: 3 border_cube:  l1 l2 l7 l23 
+frame: 3 border_cube:  l1 l2 ~l22 l23 
+frame: 3 border_cube:  l7 ~l8 l15 l23 
+frame: 3 border_cube:  l7 ~l8 l22 l23 
+frame: 3 border_cube:  ~l0 l1 ~l7 l14 l23 
+frame: 3 border_cube:  l1 l2 ~l7 l8 l23 
+frame: 3 border_cube:  ~l1 l2 ~l7 l15 l23 
+frame: 3 border_cube:  l2 ~l7 l8 l22 l23 
+frame: 4 border_cube:  ~l0 l7 l16 l23 
+frame: 4 border_cube:  l1 l7 l14 l23 
+frame: 4 border_cube:  l1 l7 l15 l23 
+frame: 4 border_cube:  l1 l7 l18 l23 
+frame: 4 border_cube:  l1 l7 l22 l23 
+frame: 4 border_cube:  l2 l8 l19 l23 
+frame: 4 border_cube:  l2 l8 l22 l23 
+frame: 4 border_cube:  ~l2 l7 l16 l23 
+frame: 4 border_cube:  ~l2 l9 l22 l23 
+frame: 4 border_cube:  l7 l8 l16 l23 
+frame: 4 border_cube:  l7 l8 l22 l23 
+frame: 4 border_cube:  l8 l9 l22 l23 
+frame: 4 border_cube:  l9 l14 l15 l23 
+frame: 4 border_cube:  l0 l9 l10 l18 l23 
+frame: 4 border_cube:  ~l0 l1 l7 l14 l23 
+frame: 4 border_cube:  ~l0 ~l1 ~l7 l15 l23 
+frame: 4 border_cube:  ~l0 ~l1 ~l8 l15 l23 
+frame: 4 border_cube:  ~l0 ~l7 l8 l14 l23 
+frame: 4 border_cube:  l1 l2 l7 l22 l23 
+frame: 4 border_cube:  l1 l2 l8 l15 l23 
+frame: 4 border_cube:  l1 l2 l8 l22 l23 
+frame: 4 border_cube:  ~l1 ~l7 l8 l19 l23 
+frame: 4 border_cube:  ~l1 ~l7 l8 l22 l23 
+frame: 4 border_cube:  l2 l8 l9 l15 l23 
+frame: 4 border_cube:  l2 l8 l9 l18 l23 
+frame: 4 border_cube:  l0 l1 l8 l12 l20 l23 
+frame: 4 border_cube:  ~l0 ~l1 ~l7 l8 l22 l23 
+frame: 4 border_cube:  ~l0 l2 ~l7 l8 l22 l23 
+frame: 5 border_cube:  l14 ~l22 
+frame: 5 border_cube:  l15 ~l22 
+frame: 5 border_cube:  l16 ~l22 
+frame: 5 border_cube:  l17 ~l22 
+frame: 5 border_cube:  l18 ~l22 
+frame: 5 border_cube:  l0 l9 l14 l23 
+frame: 5 border_cube:  ~l12 ~l13 l22 l23 
+frame: 5 border_cube:  l0 ~l7 l9 l16 l23 
+frame: 5 border_cube:  l0 ~l7 l9 l22 l23 
+frame: 5 border_cube:  ~l0 ~l1 ~l2 l15 l23 
+frame: 5 border_cube:  ~l0 ~l1 l8 l19 l23 
+frame: 5 border_cube:  ~l0 ~l2 l7 l14 l23 
+frame: 5 border_cube:  ~l0 ~l2 l7 l22 l23 
+frame: 5 border_cube:  ~l0 l7 l8 l16 l23 
+frame: 5 border_cube:  l1 l2 l7 l16 l23 
+frame: 5 border_cube:  ~l1 l7 l8 l16 l23 
+frame: 5 border_cube:  ~l1 ~l7 l9 l15 l23 
+frame: 5 border_cube:  l2 l7 l8 l16 l23 
+frame: 5 border_cube:  ~l2 l7 ~l8 l16 l23 
+frame: 5 border_cube:  ~l2 l7 l14 l16 l23 
+frame: 5 border_cube:  l0 l1 l7 ~l8 l22 l23 
+frame: 5 border_cube:  ~l0 l1 l7 l14 l16 l23 
+frame: 5 border_cube:  ~l0 l1 l8 l14 l15 l23 
+frame: 5 border_cube:  ~l0 ~l1 ~l2 l15 l16 l23 
+frame: 5 border_cube:  ~l0 ~l1 l7 l8 l22 l23 
+frame: 5 border_cube:  ~l0 l2 l8 ~l9 l20 l23 
+frame: 5 border_cube:  l1 l2 l8 ~l9 l15 l23 
+frame: 5 border_cube:  l1 l2 l8 ~l9 l22 l23 
+frame: 5 border_cube:  l1 ~l2 l7 l14 l15 l23 
+frame: 5 border_cube:  ~l1 ~l7 l9 l15 l16 l23 
+frame: 5 border_cube:  l2 ~l7 l8 ~l9 l20 l23 
+frame: 5 border_cube:  l2 ~l7 l8 ~l9 l22 l23 
+frame: 6 border_cube:  l23 
+frame: 6 border_cube:  ~l24 
+frame: 6 border_cube:  l19 ~l22 
+frame: 6 border_cube:  l20 ~l22 
+frame: 6 border_cube:  l0 ~l2 l7 ~l8 l16 l22 l23 
 border cube ends.
 load_error_starts
 Error: 
-~r1130 ~i_rx_phy.rx_active 
-~r1130 i_rx_phy.rx_valid 
-i_rx_phy.rx_active ~i_rx_phy.rx_valid r1130 
-~r1130 
+~r144 r140 
+~r144 i14 
+~r140 ~i14 r144 
+~r144 
+Error: 
+~r140 ~r139 
+~r140 l23 
+r139 ~l23 r140 
+~r144 
+Error: 
+~r139 ~r138 
+~r139 i14 
+r138 ~i14 r139 
+~r144 
+Error: 
+~r138 r137 
+~r138 l20 
+~r137 ~l20 r138 
+~r144 
+Error: 
+~r137 r136 
+~r137 l19 
+~r136 ~l19 r137 
+~r144 
+Error: 
+~r136 r135 
+~r136 l18 
+~r135 ~l18 r136 
+~r144 
+Error: 
+~r135 r134 
+~r135 l17 
+~r134 ~l17 r135 
+~r144 
+Error: 
+~r134 r133 
+~r134 l16 
+~r133 ~l16 r134 
+~r144 
+Error: 
+~r133 r132 
+~r133 l15 
+~r132 ~l15 r133 
+~r144 
+Error: 
+~r132 r131 
+~r132 l14 
+~r131 ~l14 r132 
+~r144 
+Error: 
+~r131 r130 
+~r131 l22 
+~r130 ~l22 r131 
+~r144 
+Error: 
+~r130 r129 
+~r130 r106 
+~r129 ~r106 r130 
+~r144 
+Error: 
+~r129 r128 
+~r129 r109 
+~r128 ~r109 r129 
+~r144 
+Error: 
+~r128 r127 
+~r128 r112 
+~r127 ~r112 r128 
+~r144 
+Error: 
+~r127 r126 
+~r127 r115 
+~r126 ~r115 r127 
+~r144 
+Error: 
+~r126 r125 
+~r126 r118 
+~r125 ~r118 r126 
+~r144 
+Error: 
+~r125 r124 
+~r125 r121 
+~r124 ~r121 r125 
+~r144 
+Error: 
+~r124 ~r123 
+~r124 ~r122 
+r123 r122 r124 
+~r144 
+Error: 
+~r123 ~l13 
+~r123 l6 
+l13 ~l6 r123 
+~r144 
+Error: 
+~r122 l13 
+~r122 ~l6 
+~l13 l6 r122 
+~r144 
+Error: 
+~r121 ~r120 
+~r121 ~r119 
+r120 r119 r121 
+~r144 
+Error: 
+~r120 ~l12 
+~r120 l5 
+l12 ~l5 r120 
+~r144 
+Error: 
+~r119 l12 
+~r119 ~l5 
+~l12 l5 r119 
+~r144 
+Error: 
+~r118 ~r117 
+~r118 ~r116 
+r117 r116 r118 
+~r144 
+Error: 
+~r117 ~l11 
+~r117 l4 
+l11 ~l4 r117 
+~r144 
+Error: 
+~r116 l11 
+~r116 ~l4 
+~l11 l4 r116 
+~r144 
+Error: 
+~r115 ~r114 
+~r115 ~r113 
+r114 r113 r115 
+~r144 
+Error: 
+~r114 ~l10 
+~r114 l3 
+l10 ~l3 r114 
+~r144 
+Error: 
+~r113 l10 
+~r113 ~l3 
+~l10 l3 r113 
+~r144 
+Error: 
+~r112 ~r111 
+~r112 ~r110 
+r111 r110 r112 
+~r144 
+Error: 
+~r111 l9 
+~r111 ~l2 
+~l9 l2 r111 
+~r144 
+Error: 
+~r110 ~l9 
+~r110 l2 
+l9 ~l2 r110 
+~r144 
+Error: 
+~r109 ~r108 
+~r109 ~r107 
+r108 r107 r109 
+~r144 
+Error: 
+~r108 l8 
+~r108 ~l1 
+~l8 l1 r108 
+~r144 
+Error: 
+~r107 ~l8 
+~r107 l1 
+l8 ~l1 r107 
+~r144 
+Error: 
+~r106 ~r105 
+~r106 ~r104 
+r105 r104 r106 
+~r144 
+Error: 
+~r105 l7 
+~r105 ~l0 
+~l7 l0 r105 
+~r144 
+Error: 
+~r104 ~l7 
+~r104 l0 
+l7 ~l0 r104 
+~r144 
 load_error_ends
 latch_list_starts
-rst_cnt[4]
-rst_cnt[3]
-rst_cnt[2]
-rst_cnt[1]
-rst_cnt[0]
-i_tx_phy.txoe_r2
-i_tx_phy.txoe_r1
-i_rx_phy.rxd_s
-i_tx_phy.ld_eop_d
-usb_rst
-i_rx_phy.bit_cnt[2]
-i_rx_phy.bit_cnt[1]
-i_rx_phy.bit_cnt[0]
-i_tx_phy.one_cnt[2]
-i_tx_phy.one_cnt[1]
-i_tx_phy.one_cnt[0]
-i_rx_phy.rxd_s1
-i_tx_phy.ld_sop_d
-i_rx_phy.rxdp_s
-i_rx_phy.rx_valid1
-i_rx_phy.rxdn_s1r
-i_rx_phy.fs_ce_r3
-i_rx_phy.synced_d
-i_rx_phy.rx_en
-i_tx_phy.tx_ip_sync
-i_rx_phy.fs_ce_r2
-i_rx_phy.shift_en
-i_rx_phy.rx_valid
-i_tx_phy.ld_data
-i_rx_phy.rxdp_s1
-i_rx_phy.rx_valid_r
-i_rx_phy.rxdn_s1
-i_tx_phy.ld_data_d
-i_rx_phy.fs_state[2]
-i_rx_phy.fs_state[1]
-i_rx_phy.fs_state[0]
-i_tx_phy.append_eop_sync1
-i_rx_phy.rx_active
-i_tx_phy.txoe
-i_rx_phy.rxdn_s
-i_tx_phy.append_eop_sync2
-i_rx_phy.fs_ce
-i_rx_phy.sd_r
-i_tx_phy.sft_done_r
-i_tx_phy.hold_reg[7]
-i_tx_phy.hold_reg[6]
-i_tx_phy.hold_reg[5]
-i_tx_phy.hold_reg[4]
-i_tx_phy.hold_reg[3]
-i_tx_phy.hold_reg[2]
-i_tx_phy.hold_reg[1]
-i_tx_phy.hold_reg[0]
-i_rx_phy.rxdp_s1r
-i_rx_phy.rxd_t1
-i_rx_phy.rxdn_t1
-i_rx_phy.rxdp_t1
-i_rx_phy.dpll_state[1]
-i_rx_phy.dpll_state[0]
-i_tx_phy.sd_raw_o
-i_rx_phy.sd_nrzi
-i_rx_phy.one_cnt[2]
-i_rx_phy.one_cnt[1]
-i_rx_phy.one_cnt[0]
-i_tx_phy.sft_done
-i_tx_phy.append_eop
-i_tx_phy.append_eop_sync3
-i_tx_phy.bit_cnt[2]
-i_tx_phy.bit_cnt[1]
-i_tx_phy.bit_cnt[0]
-i_tx_phy.data_done
-i_rx_phy.fs_ce_d
-i_tx_phy.state[2]
-i_tx_phy.state[1]
-i_tx_phy.state[0]
-i_rx_phy.fs_ce_r1
-i_tx_phy.tx_ip
+l0
+l1
+l2
+l3
+l4
+l5
+l6
+l7
+l8
+l9
+l10
+l11
+l12
+l13
+l14
+l15
+l16
+l17
+l18
+l19
+l20
+l21
+l22
+l23
+l24
 latch_list_ends
 input_list_starts
-DataOut_i[7]
-DataOut_i[6]
-DataOut_i[5]
-DataOut_i[4]
-DataOut_i[3]
-DataOut_i[2]
-DataOut_i[1]
-DataOut_i[0]
-TxValid_i
-clk
-phy_tx_mode
-rst
-rxd
-rxdn
-rxdp
-i15
-i16
-i17
-i18
-i19
-i20
-i21
-i22
-i23
-i24
-i25
-i26
-i27
-i28
-i29
-i30
-i31
-i32
-i33
-i34
-i35
-i36
-i37
-i38
-i39
-i40
-i41
-i42
-i43
-i44
-i45
-i46
-i47
-i48
-i49
-i50
-i51
-i52
-i53
-i54
-i55
-i56
-i57
-i58
-i59
-i60
-i61
-i62
-i63
-i64
-i65
-i66
-i67
-i68
-i69
-i70
-i71
-i72
-i73
-i74
-i75
-i76
-i77
-i78
-i79
-i80
-i81
-i82
-i83
-i84
-i85
-i86
-i87
-i88
-i89
-i90
-i91
-i92
-i93
-i94
-i95
-i96
-i97
-i98
-i99
-i100
-i101
-i102
-i103
-i104
-i105
-i106
-i107
-i108
-i109
-i110
-i111
-i112
-i113
-i114
-i115
-i116
-i117
-i118
-i119
-i120
-i121
-i122
-i123
-i124
-i125
-i126
-i127
-i128
-i129
-i130
-i131
-i132
-i133
-i134
-i135
-i136
-i137
-i138
-i139
-i140
-i141
-i142
-i143
-i144
-i145
-i146
-i147
-i148
-i149
-i150
-i151
-i152
-i153
-i154
-i155
-i156
-i157
-i158
-i159
-i160
-i161
-i162
-i163
-i164
-i165
-i166
-i167
-i168
-i169
-i170
-i171
-i172
-i173
-i174
-i175
-i176
-i177
-i178
-i179
-i180
-i181
-i182
-i183
-i184
-i185
-i186
-i187
-i188
-i189
-i190
-i191
-i192
-i193
-i194
-i195
-i196
-i197
-i198
-i199
-i200
-i201
-i202
-i203
-i204
-i205
-i206
-i207
-i208
-i209
-i210
-i211
-i212
-i213
-i214
-i215
-i216
-i217
-i218
-i219
-i220
-i221
-i222
-i223
-i224
-i225
-i226
-i227
-i228
-i229
-i230
-i231
-i232
-i233
-i234
-i235
-i236
-i237
-i238
-i239
-i240
-i241
-i242
-i243
-i244
-i245
-i246
-i247
-i248
-i249
-i250
-i251
-i252
-i253
-i254
-i255
-i256
-i257
-i258
-i259
-i260
-i261
-i262
-i263
-i264
-i265
-i266
-i267
-i268
-i269
-i270
-i271
-i272
-i273
-i274
-i275
-i276
-i277
-i278
-i279
-i280
-i281
-i282
-i283
-i284
-i285
-i286
-i287
-i288
-i289
-i290
+i0
+i1
+i2
+i3
+i4
+i5
+i6
+i7
+i8
+i9
+i10
+i11
+i12
+i13
+i14
 input_list_ends
 rep_list_starts
 r0
@@ -913,992 +653,19 @@ r141
 r142
 r143
 r144
-r145
-r146
-r147
-r148
-r149
-r150
-r151
-r152
-r153
-r154
-r155
-r156
-r157
-r158
-r159
-r160
-r161
-r162
-r163
-r164
-r165
-r166
-r167
-r168
-r169
-r170
-r171
-r172
-r173
-r174
-r175
-r176
-r177
-r178
-r179
-r180
-r181
-r182
-r183
-r184
-r185
-r186
-r187
-r188
-r189
-r190
-r191
-r192
-r193
-r194
-r195
-r196
-r197
-r198
-r199
-r200
-r201
-r202
-r203
-r204
-r205
-r206
-r207
-r208
-r209
-r210
-r211
-r212
-r213
-r214
-r215
-r216
-r217
-r218
-r219
-r220
-r221
-r222
-r223
-r224
-r225
-r226
-r227
-r228
-r229
-r230
-r231
-r232
-r233
-r234
-r235
-r236
-r237
-r238
-r239
-r240
-r241
-r242
-r243
-r244
-r245
-r246
-r247
-r248
-r249
-r250
-r251
-r252
-r253
-r254
-r255
-r256
-r257
-r258
-r259
-r260
-r261
-r262
-r263
-r264
-r265
-r266
-r267
-r268
-r269
-r270
-r271
-r272
-r273
-r274
-r275
-r276
-r277
-r278
-r279
-r280
-r281
-r282
-r283
-r284
-r285
-r286
-r287
-r288
-r289
-r290
-r291
-r292
-r293
-r294
-r295
-r296
-r297
-r298
-r299
-r300
-r301
-r302
-r303
-r304
-r305
-r306
-r307
-r308
-r309
-r310
-r311
-r312
-r313
-r314
-r315
-r316
-r317
-r318
-r319
-r320
-r321
-r322
-r323
-r324
-r325
-r326
-r327
-r328
-r329
-r330
-r331
-r332
-r333
-r334
-r335
-r336
-r337
-r338
-r339
-r340
-r341
-r342
-r343
-r344
-r345
-r346
-r347
-r348
-r349
-r350
-r351
-r352
-r353
-r354
-r355
-r356
-r357
-r358
-r359
-r360
-r361
-r362
-r363
-r364
-r365
-r366
-r367
-r368
-r369
-r370
-r371
-r372
-r373
-r374
-r375
-r376
-r377
-r378
-r379
-r380
-r381
-r382
-r383
-r384
-r385
-r386
-r387
-r388
-r389
-r390
-r391
-r392
-r393
-r394
-r395
-r396
-r397
-r398
-r399
-r400
-r401
-r402
-r403
-r404
-r405
-r406
-r407
-r408
-r409
-r410
-r411
-r412
-r413
-r414
-r415
-r416
-r417
-r418
-r419
-r420
-r421
-r422
-r423
-r424
-r425
-r426
-r427
-r428
-r429
-r430
-r431
-r432
-r433
-r434
-r435
-r436
-r437
-r438
-r439
-r440
-r441
-r442
-r443
-r444
-r445
-r446
-r447
-r448
-r449
-r450
-r451
-r452
-r453
-r454
-r455
-r456
-r457
-r458
-r459
-r460
-r461
-r462
-r463
-r464
-r465
-r466
-r467
-r468
-r469
-r470
-r471
-r472
-r473
-r474
-r475
-r476
-r477
-r478
-r479
-r480
-r481
-r482
-r483
-r484
-r485
-r486
-r487
-r488
-r489
-r490
-r491
-r492
-r493
-r494
-r495
-r496
-r497
-r498
-r499
-r500
-r501
-r502
-r503
-r504
-r505
-r506
-r507
-r508
-r509
-r510
-r511
-r512
-r513
-r514
-r515
-r516
-r517
-r518
-r519
-r520
-r521
-r522
-r523
-r524
-r525
-r526
-r527
-r528
-r529
-r530
-r531
-r532
-r533
-r534
-r535
-r536
-r537
-r538
-r539
-r540
-r541
-r542
-r543
-r544
-r545
-r546
-r547
-r548
-r549
-r550
-r551
-r552
-r553
-r554
-r555
-r556
-r557
-r558
-r559
-r560
-r561
-r562
-r563
-r564
-r565
-r566
-r567
-r568
-r569
-r570
-r571
-r572
-r573
-r574
-r575
-r576
-r577
-r578
-r579
-r580
-r581
-r582
-r583
-r584
-r585
-r586
-r587
-r588
-r589
-r590
-r591
-r592
-r593
-r594
-r595
-r596
-r597
-r598
-r599
-r600
-r601
-r602
-r603
-r604
-r605
-r606
-r607
-r608
-r609
-r610
-r611
-r612
-r613
-r614
-r615
-r616
-r617
-r618
-r619
-r620
-r621
-r622
-r623
-r624
-r625
-r626
-r627
-r628
-r629
-r630
-r631
-r632
-r633
-r634
-r635
-r636
-r637
-r638
-r639
-r640
-r641
-r642
-r643
-r644
-r645
-r646
-r647
-r648
-r649
-r650
-r651
-r652
-r653
-r654
-r655
-r656
-r657
-r658
-r659
-r660
-r661
-r662
-r663
-r664
-r665
-r666
-r667
-r668
-r669
-r670
-r671
-r672
-r673
-r674
-r675
-r676
-r677
-r678
-r679
-r680
-r681
-r682
-r683
-r684
-r685
-r686
-r687
-r688
-r689
-r690
-r691
-r692
-r693
-r694
-r695
-r696
-r697
-r698
-r699
-r700
-r701
-r702
-r703
-r704
-r705
-r706
-r707
-r708
-r709
-r710
-r711
-r712
-r713
-r714
-r715
-r716
-r717
-r718
-r719
-r720
-r721
-r722
-r723
-r724
-r725
-r726
-r727
-r728
-r729
-r730
-r731
-r732
-r733
-r734
-r735
-r736
-r737
-r738
-r739
-r740
-r741
-r742
-r743
-r744
-r745
-r746
-r747
-r748
-r749
-r750
-r751
-r752
-r753
-r754
-r755
-r756
-r757
-r758
-r759
-r760
-r761
-r762
-r763
-r764
-r765
-r766
-r767
-r768
-r769
-r770
-r771
-r772
-r773
-r774
-r775
-r776
-r777
-r778
-r779
-r780
-r781
-r782
-r783
-r784
-r785
-r786
-r787
-r788
-r789
-r790
-r791
-r792
-r793
-r794
-r795
-r796
-r797
-r798
-r799
-r800
-r801
-r802
-r803
-r804
-r805
-r806
-r807
-r808
-r809
-r810
-r811
-r812
-r813
-r814
-r815
-r816
-r817
-r818
-r819
-r820
-r821
-r822
-r823
-r824
-r825
-r826
-r827
-r828
-r829
-r830
-r831
-r832
-r833
-r834
-r835
-r836
-r837
-r838
-r839
-r840
-r841
-r842
-r843
-r844
-r845
-r846
-r847
-r848
-r849
-r850
-r851
-r852
-r853
-r854
-r855
-r856
-r857
-r858
-r859
-r860
-r861
-r862
-r863
-r864
-r865
-r866
-r867
-r868
-r869
-r870
-r871
-r872
-r873
-r874
-r875
-r876
-r877
-r878
-r879
-r880
-r881
-r882
-r883
-r884
-r885
-r886
-r887
-r888
-r889
-r890
-r891
-r892
-r893
-r894
-r895
-r896
-r897
-r898
-r899
-r900
-r901
-r902
-r903
-r904
-r905
-r906
-r907
-r908
-r909
-r910
-r911
-r912
-r913
-r914
-r915
-r916
-r917
-r918
-r919
-r920
-r921
-r922
-r923
-r924
-r925
-r926
-r927
-r928
-r929
-r930
-r931
-r932
-r933
-r934
-r935
-r936
-r937
-r938
-r939
-r940
-r941
-r942
-r943
-r944
-r945
-r946
-r947
-r948
-r949
-r950
-r951
-r952
-r953
-r954
-r955
-r956
-r957
-r958
-r959
-r960
-r961
-r962
-r963
-r964
-r965
-r966
-r967
-r968
-r969
-r970
-r971
-r972
-r973
-r974
-r975
-r976
-r977
-r978
-r979
-r980
-r981
-r982
-r983
-r984
-r985
-r986
-r987
-r988
-r989
-r990
-r991
-r992
-r993
-r994
-r995
-r996
-r997
-r998
-r999
-r1000
-r1001
-r1002
-r1003
-r1004
-r1005
-r1006
-r1007
-r1008
-r1009
-r1010
-r1011
-r1012
-r1013
-r1014
-r1015
-r1016
-r1017
-r1018
-r1019
-r1020
-r1021
-r1022
-r1023
-r1024
-r1025
-r1026
-r1027
-r1028
-r1029
-r1030
-r1031
-r1032
-r1033
-r1034
-r1035
-r1036
-r1037
-r1038
-r1039
-r1040
-r1041
-r1042
-r1043
-r1044
-r1045
-r1046
-r1047
-r1048
-r1049
-r1050
-r1051
-r1052
-r1053
-r1054
-r1055
-r1056
-r1057
-r1058
-r1059
-r1060
-r1061
-r1062
-r1063
-r1064
-r1065
-r1066
-r1067
-r1068
-r1069
-r1070
-r1071
-r1072
-r1073
-r1074
-r1075
-r1076
-r1077
-r1078
-r1079
-r1080
-r1081
-r1082
-r1083
-r1084
-r1085
-r1086
-r1087
-r1088
-r1089
-r1090
-r1091
-r1092
-r1093
-r1094
-r1095
-r1096
-r1097
-r1098
-r1099
-r1100
-r1101
-r1102
-r1103
-r1104
-r1105
-r1106
-r1107
-r1108
-r1109
-r1110
-r1111
-r1112
-r1113
-r1114
-r1115
-r1116
-r1117
-r1118
-r1119
-r1120
-r1121
-r1122
-r1123
-r1124
-r1125
-r1126
-r1127
-r1128
-r1129
-r1130
 rep_list_ends
 invariant Frame: 1
+. Elapsed time: 0.02
+. % SAT:        100
+. K:            5
+. # Queries:    2091
+. # CTIs:       98
+. # CTGs:       0
+. # mic calls:  203
+. Queries/sec:  104550
+. Mics/sec:     10150
+. # Red. cores: 38
+. # Int. joins: 0
+. # Int. mics:  105
+. Avg lits/cls: 5.20513
 0

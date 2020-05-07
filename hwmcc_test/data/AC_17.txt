@@ -103,7 +103,7 @@
 /home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s274r.aig,timeout
 /home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//intel032.aig,timeout
 /home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s394r.aig,timeout
-/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//eijks1238.aig,0,100,True
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//eijks1238.aig,0,100,True,
 /home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//oc8051gmc6data.aig,timeout
 /home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s404rb1.aig,Too many latches!9801
 /home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s120.aig,timeout

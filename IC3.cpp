@@ -612,7 +612,19 @@ namespace IC3 {
       // try dropping each literal in turn
       size_t attempts = micAttempts;
       orderCube(cube);
-      for (size_t i = 0; i < cube.size();) {
+      //youl
+      //assuming $basic == 1$
+      //mic() drops one literal in cube each time, and query ctgDown(), which is equivalent to consecution().
+      //if consecution() returns true, meaning ~cube is relatively inductive, dropping is sound.
+      //in this process, cube could also be shorten by unsat core.
+      //Then drop the next literal and query again.
+      //until no further literals can be dropped.
+      //TODO: Limit the max number of literals can be dropped.
+      // size_t orig_cube_size = model.latches;
+      size_t orig_cube_size = cube.size();
+      // cout << "** Original Cube Size: " << orig_cube_size << endl;
+      for (size_t i = 0; i < cube.size() && cube.size() * model.gen_threshold >= orig_cube_size;) {
+      // for (size_t i = 0; i < cube.size();) {
         LitVec cp(cube.begin(), cube.begin() + i);
         cp.insert(cp.end(), cube.begin() + i+1, cube.end());
         if (ctgDown(level, cp, i, recDepth)) {
@@ -793,39 +805,75 @@ namespace IC3 {
           cout << i << " " << ckeep << " " << cprop << " " << cdrop << endl;
         if (fr.borderCubes.empty()) {
           cout << "invariant Frame: " << i << endl;//youl
-          cout << "border cube starts." << endl;//youl
-          for (size_t ii = i; ii <= k + 1; ++ii) {
-            for (CubeSet::const_iterator jj = frames[ii].borderCubes.begin(); 
-              jj != frames[ii].borderCubes.end(); ++jj) {
-              cout << "frame: " << ii << " border_cube: " << " " << stringOfLitVec(*jj) << endl;
+
+          bool rv = fr.consecution->solve();//youl
+          LitVec new_latches;
+          if (rv) {
+            cout << "SAT" << endl;
+            cout << "IF samples starts." << endl;//youl
+            int num_samples = 100;
+            for (int j = 0; j != num_samples; ++j) {
+              new_latches.clear();
+              for (VarVec::const_iterator i = model.beginLatches(); 
+                i != model.endLatches(); ++i) {
+                  Minisat::lbool val = fr.consecution->modelValue(i->var());
+                  if (val != Minisat::l_Undef) {
+                    Minisat::Lit la = i->lit(val == Minisat::l_False);
+                    new_latches.push_back(la);
+                  } else {
+                    cout << "undefined latch.";
+                    assert(false);
+                  }
+              }
+              cout << "sample " << j << ": " << stringOfLitVec(new_latches) << endl;
+
+              MSLitVec cls;
+              cls.capacity(new_latches.size());
+              for (LitVec::const_iterator k = new_latches.begin(); k != new_latches.end(); ++k)
+                cls.push(~*k);
+              fr.consecution->addClause(cls);
+              rv = fr.consecution->solve();
             }
+            cout << "IF samples ends." << endl;//youl
+            
+          } else {
+            cout << "not SAT" << endl;
           }
-          cout << "border cube ends." << endl;//youl
-          Minisat::Solver * base0 = model.newSolver();
-          model.loadInitialCondition(*base0);
-          cout << "load_error_starts" << endl;//youl
-          model.loadError(*base0, true, model);
-          cout << "load_error_ends" << endl;//youl
+          if (model.is_print) {
+            cout << "border cube starts." << endl;//youl
+            for (size_t ii = i; ii <= k + 1; ++ii) {
+              for (CubeSet::const_iterator jj = frames[ii].borderCubes.begin(); 
+                jj != frames[ii].borderCubes.end(); ++jj) {
+                cout << "frame: " << ii << " border_cube: " << " " << stringOfLitVec(*jj) << endl;
+              }
+            }
+            cout << "border cube ends." << endl;//youl
+            Minisat::Solver * base0 = model.newSolver();
+            model.loadInitialCondition(*base0);
+            cout << "load_error_starts" << endl;//youl
+            model.loadError(*base0, true, model);
+            cout << "load_error_ends" << endl;//youl
 
 
-          //const size_t inputs, latches, reps, primes;
-          cout << "latch_list_starts" << endl;//youl
-          for (VarVec::const_iterator kk = model.vars.begin()+model.latches; kk != model.vars.begin()+model.reps; ++kk) {
-            cout << kk->name() << endl;
-          }
-          cout << "latch_list_ends" << endl;//youl
+            //const size_t inputs, latches, reps, primes;
+            cout << "latch_list_starts" << endl;//youl
+            for (VarVec::const_iterator kk = model.vars.begin()+model.latches; kk != model.vars.begin()+model.reps; ++kk) {
+              cout << kk->name() << endl;
+            }
+            cout << "latch_list_ends" << endl;//youl
 
-          cout << "input_list_starts" << endl;//youl
-          for (VarVec::const_iterator kk = model.vars.begin()+model.inputs; kk != model.vars.begin()+model.latches; ++kk) {
-            cout << kk->name() << endl;
-          }
-          cout << "input_list_ends" << endl;//youl
+            cout << "input_list_starts" << endl;//youl
+            for (VarVec::const_iterator kk = model.vars.begin()+model.inputs; kk != model.vars.begin()+model.latches; ++kk) {
+              cout << kk->name() << endl;
+            }
+            cout << "input_list_ends" << endl;//youl
 
-          cout << "rep_list_starts" << endl;//youl
-          for (VarVec::const_iterator kk = model.vars.begin()+model.reps; kk != model.vars.begin()+model.primes; ++kk) {
-            cout << kk->name() << endl;
+            cout << "rep_list_starts" << endl;//youl
+            for (VarVec::const_iterator kk = model.vars.begin()+model.reps; kk != model.vars.begin()+model.primes; ++kk) {
+              cout << kk->name() << endl;
+            }
+            cout << "rep_list_ends" << endl;//youl
           }
-          cout << "rep_list_ends" << endl;//youl
 
           /*
           LitVec error_vec;

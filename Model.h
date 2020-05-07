@@ -92,10 +92,12 @@ public:
   // functions, the error, and the AND table, closely reflecting the
   // AIGER format.  Easier to use "modelFromAiger()", below.
   Model(vector<Var> _vars, 
+        float _gen_threshold, bool _is_print,
         size_t _inputs, size_t _latches, size_t _reps, 
         LitVec _init, LitVec _constraints, LitVec _nextStateFns, 
         Minisat::Lit _err, AigVec _aig) :
     vars(_vars), 
+    gen_threshold(_gen_threshold), is_print(_is_print),
     inputs(_inputs), latches(_latches), reps(_reps),
     primes(_vars.size()), primesUnlocked(true), aig(_aig),
     init(_init), constraints(_constraints), nextStateFns(_nextStateFns),
@@ -214,11 +216,13 @@ public:
   // if a cube has an initial state.
   bool isInitial(const LitVec & latches);
 
-
   VarVec vars;
-
+  float gen_threshold;
+  bool is_print;
 
   const size_t inputs, latches, reps, primes;
+
+
 
 private:
   bool primesUnlocked;
@@ -242,6 +246,6 @@ private:
 };
 
 // The easiest way to create a model.
-Model * modelFromAiger(aiger * aig, unsigned int propertyIndex);
+Model * modelFromAiger(aiger * aig, unsigned int propertyIndex, float gen_threshold, bool is_print);
 
 #endif

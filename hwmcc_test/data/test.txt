@@ -1,0 +1,23 @@
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/bj08amba2g4f3.aig,inv_frame_equals_false
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/beemlmprt8f1.aig,inv_frame_OK,/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/6s210b037.aig,Timeout!!
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/abp4p2ff.aig,inv_frame_OK,/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/mutexp0.aig,inv_frame_equals_false
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/counterp0.aig,inv_frame_equals_false
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/pcip1.aig,inv_frame_OK,/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/bobmiterbm1or.aig,unsafe for base case.
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/bobsynth13.aig,unsafe for base case.
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/dme6p1neg.aig,Timeout!!
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/bobtuint24.aig,unsafe for base case.
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/6s389b02.aig,unsafe for base case.
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/texasifetch1p8.aig,inv_frame_equals_false
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/csmacdp2.aig,Timeout!!
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/bobsynthor.aig,No output
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/dme6p1.aig,Timeout!!
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/ringp0.aig,inv_frame_OK,/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/oski15a01b57s.aig,unsafe for base case.
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/bj08vendingcycle.aig,inv_frame_OK,/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/139442p1.aig,Timeout!!
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/srg5ptimo.aig,inv_frame_OK,/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/brpp1.aig,inv_frame_OK,/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/6s380b511.aig,Timeout!!
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/pdtswvibs8x8p0.aig,inv_frame_equals_false
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/productioncellp0.aig,Timeout!!
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/texasparsesysp3.aig,inv_frame_equals_false
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/139443p5.aig,Timeout!!
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/139444p22.aig,Timeout!!
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/6s215rb0.aig,Timeout!!
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe/viselevatorp2.aig,inv_frame_equals_false

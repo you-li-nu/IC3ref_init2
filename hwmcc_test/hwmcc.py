@@ -11,7 +11,7 @@ def main():
     file_name = 'nusmvguidancep1.aig'
     IC3_path = '/home/li/Documents/IC3ref/IC3'
 
-    result = open("result17.txt", "w")
+    result = open("data/result17.txt", "w")
 
     for subdir, dirs, files in os.walk(file_path):
         for file in files:
@@ -62,7 +62,10 @@ def run_foreground(args, f_in=None, f_out="./temp_stdout.txt", f_err="./temp_std
     if read_output:
         stdout_text = _read_optional(f_out)
         stderr_text = _read_optional(f_err)
-        return stdout_text
+        if exit_code == 1:
+            return stdout_text
+        else:
+            return 'exit_code: ' + str(exit_code)
     else:
         return -2
 
@@ -80,6 +83,13 @@ def _read_optional(filename):
     except UnicodeDecodeError: # UnicodeDecodeError: 'utf-8' codec can't decode byte ...
         with open(filename, "rb") as f:
             return str(f.read())
+
+
+def write_file_print(f, text, end=','):
+    text = str(text)
+    f.write(text + end)
+    print(text, end=end)
+
 
 if __name__ == '__main__':
     main()

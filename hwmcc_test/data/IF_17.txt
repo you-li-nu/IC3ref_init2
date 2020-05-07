@@ -1,0 +1,1 @@
+/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks//6s163.aig,

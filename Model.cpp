@@ -311,7 +311,7 @@ Minisat::Lit lit(const VarVec & vars, unsigned int l) {
   return vars[l>>1].lit(aiger_sign(l));
 }
 
-Model * modelFromAiger(aiger * aig, unsigned int propertyIndex) {
+Model * modelFromAiger(aiger * aig, unsigned int propertyIndex, float gen_threshold, bool is_print) {
   VarVec vars(1, Var("false"));
   LitVec init, constraints, nextStateFns;
 
@@ -364,6 +364,8 @@ Model * modelFromAiger(aiger * aig, unsigned int propertyIndex) {
 
   size_t offset = 0;
   return new Model(vars, 
+                   gen_threshold,
+                   is_print,
                    offset += 1, offset += aig->num_inputs, 
                    offset + aig->num_latches,
                    init, constraints, nextStateFns, err, aigv);

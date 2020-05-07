@@ -33,7 +33,8 @@ extern "C" {
 
 int main(int argc, char ** argv) {
   unsigned int propertyIndex = 0;
-  bool basic = false, random = false;
+  float gen_threshold = 1;
+  bool basic = false, random = false, is_print = false;
   int verbose = 0;
   for (int i = 1; i < argc; ++i) {
     if (string(argv[i]) == "-v")
@@ -51,9 +52,15 @@ int main(int argc, char ** argv) {
     else if (string(argv[i]) == "-b")
       // option: use basic generalization
       basic = true;
-    else
+    else if (string(argv[i]) == "-p") {
+      is_print = true;
+    }
+    else {
       // optional argument: set property index
-      propertyIndex = (unsigned) atoi(argv[i]);
+
+      gen_threshold = (float) stof(argv[i]);
+      cout << "threshold: " << gen_threshold << endl;
+    }
   }
 
   // read AIGER model
@@ -64,7 +71,7 @@ int main(int argc, char ** argv) {
     return 0;
   }
   // create the Model from the obtained aig
-  Model * model = modelFromAiger(aig, propertyIndex);
+  Model * model = modelFromAiger(aig, propertyIndex, gen_threshold, is_print);
   aiger_reset(aig);
   if (!model) return 0;
 
