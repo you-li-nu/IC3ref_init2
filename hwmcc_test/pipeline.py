@@ -42,17 +42,17 @@ from hwmcc import write_file_print, run_foreground
         - is_safe(ABC): -> CSV
 '''
 def pipeline():
-    folder_path = "/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/unsafe"
-    IC3_path = '/home/li/Documents/IC3ref_init2/IC3'
+    folder_path = "/home/kaiyu/Documents/IC3ref_init2/example/hwmcc17-single-benchmarks/unsafe/"
+    IC3_path = '/home/kaiyu/Documents/IC3ref_init2/IC3'
     result_file = open('result.csv', 'w')
 
     for aig_file in traversal_folder(folder_path):
-        if 'ringp0' not in aig_file: continue
+        if 'bj08amba2g4' not in aig_file: continue
 
 
-        gen_threshold = 1.0/1.414
+        gen_threshold = 14.0/1.414
 
-        while gen_threshold < 2:
+        while gen_threshold < 28:
             write_file_print(result_file, aig_file)
             # 1
             gen_threshold *= 1.414
@@ -76,6 +76,7 @@ def pipeline():
             write_file_print(result_file, IF)
             write_file_print(result_file, K)
             write_file_print(result_file, is_safe_IC3)
+
             if is_safe_IC3 is None:
                 write_file_print(result_file, 'core dumped', '\n')
                 continue
@@ -85,18 +86,22 @@ def pipeline():
             # print(Fi)
             # print(Symbol_dict)
 
+            # print("\n*** GOOD *** \n")
+            # print(raw_output)
+
             IF_samples = parse_raw_output3(raw_output)
-            print(IF_samples)
+            # print(IF_samples)
+            #
+            # write_file_print(result_file, '', '\n')
 
-            write_file_print(result_file, '', '\n')
 
 
 
-            # 4
 
 def parse_raw_output3(raw_output: str):
     try:
         import re
+        # print(raw_output)
         segment = re.findall(r"IF samples starts\.(.*?)IF samples ends\.", raw_output, re.DOTALL)[0]
 
         IF_samples = []
@@ -155,8 +160,9 @@ def parse_raw_output1(raw_output: str):
 # def parse
 
 
-def run_IC3(IC3_path, aig_file, gen_threshold, timeout_seconds=60):
-    args = [IC3_path, '-s', '-b', '-p', str(gen_threshold)]
+def run_IC3(IC3_path, aig_file, gen_threshold, timeout_seconds=60, args=[]):
+    if args == []:
+        args = [IC3_path, '-s', '-b', '-p', str(gen_threshold)]
     from datetime import datetime
     start_time = datetime.now()
     output = run_foreground(args, f_in=aig_file, timeout_seconds=timeout_seconds)
