@@ -87,35 +87,48 @@ def rand_binary_string(n):
 
 
 def generate_abc_command(init, aig_file):
-    command = ""
-    command += "read_aiger " + aig_file + "\n"
-    command += "init -S " + init + "\n"
-    command += "pdr" + "\n"
+    if init is None:
+        command = ""
+        command += "read_aiger " + aig_file + "\n"
+        command += "pdr" + "\n"
+    else:
+        command = ""
+        command += "read_aiger " + aig_file + "\n"
+        command += "init -S " + init + "\n"
+        command += "pdr" + "\n"
+    command += "quit" + "\n"
     return command
 
 
 def run_abc_checking(init, aig_file, timeout):
-    path = '/home/li/Documents/IC3ref_init/example/kaiyu/abc/abc'
+    path = '/home/kaiyu/Documents/IC3ref_init2/example/youl/abc-master/abc'
     command_file = 'command_file.txt'
     commands = generate_abc_command(init, aig_file)
     f = open(command_file, "w")
     f.write(commands)
     f.close()
 
+    import time
+    time.sleep(0.01)
+
     stdin = open(command_file, "r")
     proc = subprocess.Popen(path, stdin=stdin, stdout=subprocess.PIPE, shell=True)
 
+    from signal import SIGINT, SIGTERM
     try:
         proc.wait(timeout=timeout)
+        output = proc.stdout.readlines()
     except subprocess.TimeoutExpired as err: # send SIGINT; otherwise kill and report this part
-        from signal import SIGINT
         proc.send_signal(SIGINT)
+        # os.killpg(os.getpgid(proc.pid), SIGTERM)
+        proc.kill()
+        return False, None
+    except:
+        # os.killpg(os.getpgid(proc.pid), SIGTERM)
         proc.kill()
         return False, None
 
-    output = proc.stdout.readlines()
     proc.kill()
-
     return True, output
 
 '''

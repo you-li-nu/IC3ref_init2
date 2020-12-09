@@ -88,6 +88,7 @@ def _read_optional(filename):
 def write_file_print(f, text, end=','):
     text = str(text)
     f.write(text + end)
+    f.flush()
     print(text, end=end)
 
 

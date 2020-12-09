@@ -807,18 +807,47 @@ namespace IC3 {
           cout << "invariant Frame: " << i << endl;//youl
 
           bool rv = fr.consecution->solve();//youl
-          LitVec new_latches;
+
           if (rv) {
             cout << "SAT" << endl;
+
+            //randomly sample #num_picks points from P/\F_i
+            cout << "IF picks starts." << endl;//youl
+            
+            int overlap_picks = 0;
+            for (auto j : model.fixed_samples) {
+              MSLitVec assumpts;
+              assumpts.capacity(model.latches);
+              for (VarVec::const_iterator ii = model.beginLatches(); 
+                ii != model.endLatches(); ++ii) {
+                Minisat::Lit la = ii->lit(false);
+                assert(j[ii-model.beginLatches()] == '0' || j[ii-model.beginLatches()] == '1');
+                if (j[ii-model.beginLatches()] == '0') {
+                  assumpts.push(~la);
+                } else {
+                  assumpts.push(la);
+                }
+              }
+              //assumpts.push(~model.Error()); youl
+              rv = fr.consecution->solve(assumpts);
+              if (rv) {overlap_picks++;}
+            }
+            
+            cout << "total picks: " << model.fixed_samples.size() << " " << "overlap picks: " << overlap_picks << endl;
+
+            cout << "IF picks ends." << endl;//youl
+
+            //randomly sample #num_samples points from P/\F_i
+            LitVec new_latches;
             cout << "IF samples starts." << endl;//youl
             int num_samples = 100;
             for (int j = 0; j != num_samples; ++j) {
               new_latches.clear();
-              for (VarVec::const_iterator i = model.beginLatches(); 
-                i != model.endLatches(); ++i) {
-                  Minisat::lbool val = fr.consecution->modelValue(i->var());
+              for (VarVec::const_iterator ii = model.beginLatches(); 
+                ii != model.endLatches(); ++ii) {
+                  Minisat::lbool val = fr.consecution->modelValue(ii->var());
                   if (val != Minisat::l_Undef) {
-                    Minisat::Lit la = i->lit(val == Minisat::l_False);
+                    Minisat::Lit la = ii->lit(val == Minisat::l_False);
                     new_latches.push_back(la);
                   } else {
                     cout << "undefined latch.";

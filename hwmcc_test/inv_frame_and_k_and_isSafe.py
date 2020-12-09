@@ -3,6 +3,7 @@ import sys
 import os
 import subprocess
 import re
+import time
 
 from hwmcc import _read_optional, run_foreground, write_file_print
 
@@ -10,13 +11,13 @@ from hwmcc import _read_optional, run_foreground, write_file_print
 
 def main():
 
-    file_path = "/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks"
+    file_path = "/home/kaiyu/Documents/IC3ref_init2/example/hwmcc13/single/timeout/"
     # IC3_path = '/home/li/Documents/IC3ref_init2/IC3'
-    IC3_path = '/home/li/Documents/IC3ref/IC3'
+    IC3_path = '/home/kaiyu/Documents/IC3ref/IC3'
 
     args = [IC3_path, '-s']
 
-    result = open("data/IC3_IF_17.txt", "w")
+    result = open("data/IC3_IF_13_SINGLE_%s.txt" % (time.strftime("%Y_%b_%d_%H_%M", time.localtime())), "w")
 
     for subdir, dirs, files in os.walk(file_path):
         for file in files:
@@ -28,7 +29,7 @@ def main():
 
             write_file_print(result, aig_file, ',')
 
-            output = run_foreground(args, f_in=aig_file, timeout_seconds=60)
+            output = run_foreground(args, f_in=aig_file, timeout_seconds=1200)
 
             if output == -1:
                 write_file_print(result, "timeout", '\n')

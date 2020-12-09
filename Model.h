@@ -29,6 +29,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #include <sstream>
 #include <unordered_map>
 #include <vector>
+#include <fstream>
 
 extern "C" {
 #include "aiger.h"
@@ -92,12 +93,12 @@ public:
   // functions, the error, and the AND table, closely reflecting the
   // AIGER format.  Easier to use "modelFromAiger()", below.
   Model(vector<Var> _vars, 
-        float _gen_threshold, bool _is_print,
+        float _gen_threshold, bool _is_print, string _sample_file,
         size_t _inputs, size_t _latches, size_t _reps, 
         LitVec _init, LitVec _constraints, LitVec _nextStateFns, 
         Minisat::Lit _err, AigVec _aig) :
     vars(_vars), 
-    gen_threshold(_gen_threshold), is_print(_is_print),
+    gen_threshold(_gen_threshold), is_print(_is_print), sample_file(_sample_file),
     inputs(_inputs), latches(_latches), reps(_reps),
     primes(_vars.size()), primesUnlocked(true), aig(_aig),
     init(_init), constraints(_constraints), nextStateFns(_nextStateFns),
@@ -115,6 +116,23 @@ public:
     for (LitVec::const_iterator i = constraints.begin(); 
          i != constraints.end(); ++i)
       primeLit(*i);
+
+    //youl
+    ifstream inFile;
+    inFile.open(sample_file);
+    cerr << sample_file << endl;
+    if (!inFile) {
+      cerr << "Unable to open sample_file.";
+      exit(1);   // call system to stop
+    }
+    std::string s;
+    while (getline(inFile, s)) {
+      // using printf() in all tests for consistency
+
+      fixed_samples.push_back(s);
+    }
+    inFile.close();
+
   }
   ~Model();
 
@@ -219,6 +237,9 @@ public:
   VarVec vars;
   float gen_threshold;
   bool is_print;
+  string sample_file;
+
+  vector<string> fixed_samples;
 
   const size_t inputs, latches, reps, primes;
 
@@ -246,6 +267,6 @@ private:
 };
 
 // The easiest way to create a model.
-Model * modelFromAiger(aiger * aig, unsigned int propertyIndex, float gen_threshold, bool is_print);
+Model * modelFromAiger(aiger * aig, unsigned int propertyIndex, float gen_threshold, bool is_print, string sample_file);
 
 #endif

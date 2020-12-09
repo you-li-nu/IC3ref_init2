@@ -1,4 +1,11 @@
-/home/kaiyu/Documents/IC3ref_init2/example/hwmcc17-single-benchmarks/unsafe//bj08amba2g4f3.aig,14.0000,0:00:06.134029,1,7,True,
-/home/kaiyu/Documents/IC3ref_init2/example/hwmcc17-single-benchmarks/unsafe//bj08amba2g4f3.aig,19.7960,0:00:06.483441,1,7,True,
-/home/kaiyu/Documents/IC3ref_init2/example/hwmcc17-single-benchmarks/unsafe//bj08amba2g4f3.aig,27.9915,0:00:06.484387,1,7,True,
-/home/kaiyu/Documents/IC3ref_init2/example/hwmcc17-single-benchmarks/unsafe//bj08amba2g4f3.aig,39.5800,0:00:06.484216,1,7,True,
+/home/kaiyu/Documents/IC3ref_init2/example/hwmcc17-single-benchmarks/unsafe//bj08amba2g4f3.aig,0,231,1.4140,timeout
+/home/kaiyu/Documents/IC3ref_init2/example/hwmcc17-single-benchmarks/unsafe//bj08amba2g4f3.aig,0,231,1.9994,0:00:12.551355,1,7,True,1000,20,88,0,12,
+/home/kaiyu/Documents/IC3ref_init2/example/hwmcc17-single-benchmarks/unsafe//bj08amba2g4f3.aig,0,231,2.8271,0:00:06.947103,1,6,True,IF is unSAT
+/home/kaiyu/Documents/IC3ref_init2/example/hwmcc17-single-benchmarks/unsafe//bj08amba2g4f3.aig,0,231,3.9976,0:00:04.830630,1,5,True,IF is unSAT
+/home/kaiyu/Documents/IC3ref_init2/example/hwmcc17-single-benchmarks/unsafe//bj08amba2g4f3.aig,0,231,5.6526,0:00:06.986921,1,9,True,IF is unSAT
+/home/kaiyu/Documents/IC3ref_init2/example/hwmcc17-single-benchmarks/unsafe//bj08amba2g4f3.aig,0,231,7.9928,0:00:05.282751,1,7,True,IF is unSAT
+/home/kaiyu/Documents/IC3ref_init2/example/hwmcc17-single-benchmarks/unsafe//bj08amba2g4f3.aig,0,231,11.3018,0:00:07.037613,1,7,True,IF is unSAT
+/home/kaiyu/Documents/IC3ref_init2/example/hwmcc17-single-benchmarks/unsafe//bj08amba2g4f3.aig,0,231,15.9807,0:00:07.187313,1,7,True,IF is unSAT
+/home/kaiyu/Documents/IC3ref_init2/example/hwmcc17-single-benchmarks/unsafe//bj08amba2g4f3.aig,0,231,22.5967,0:00:07.286638,1,7,True,IF is unSAT
+/home/kaiyu/Documents/IC3ref_init2/example/hwmcc17-single-benchmarks/unsafe//bj08amba2g4f3.aig,0,231,31.9517,0:00:07.337016,1,7,True,IF is unSAT
+/home/kaiyu/Documents/IC3ref_init2/example/hwmcc17-single-benchmarks/unsafe//bj08amba2g4f3.aig,0,231,45.1797,0:00:07.243880,1,7,True,IF is unSAT

@@ -11,7 +11,7 @@ from hwmcc import _read_optional, run_foreground, write_file_print
 
 def main():
 
-    file_path = "/home/li/Documents/IC3ref_init/example/hwmcc17-single-benchmarks/"
+    file_path = "/home/kaiyu/Documents/IC3ref_init2/example/hwmcc13/single/timeout/"
     # IC3_path = '/home/li/Documents/IC3ref_init2/IC3'
 
     safe_dir = file_path + "/safe/"
@@ -29,7 +29,7 @@ def main():
     os.mkdir(unsafe_dir)
     os.mkdir(timeout_dir)
 
-    result_file = open("data/IC3_IF_17.txt", 'r')
+    result_file = open("data/IC3_IF_13_SINGLE_2020_May_22_18_01.txt", 'r')
     lines = result_file.readlines()
 
     for line in lines:

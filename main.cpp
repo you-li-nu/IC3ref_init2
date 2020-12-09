@@ -34,6 +34,7 @@ extern "C" {
 int main(int argc, char ** argv) {
   unsigned int propertyIndex = 0;
   float gen_threshold = 1;
+  string sample_file;
   bool basic = false, random = false, is_print = false;
   int verbose = 0;
   for (int i = 1; i < argc; ++i) {
@@ -55,6 +56,10 @@ int main(int argc, char ** argv) {
     else if (string(argv[i]) == "-p") {
       is_print = true;
     }
+    else if (string(argv[i]) == "-sample") {
+      sample_file = argv[++i];
+      cout << "sample_file: " << sample_file << endl;
+    }
     else {
       // optional argument: set property index
 
@@ -71,7 +76,7 @@ int main(int argc, char ** argv) {
     return 0;
   }
   // create the Model from the obtained aig
-  Model * model = modelFromAiger(aig, propertyIndex, gen_threshold, is_print);
+  Model * model = modelFromAiger(aig, propertyIndex, gen_threshold, is_print, sample_file);
   aiger_reset(aig);
   if (!model) return 0;
 
