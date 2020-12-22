@@ -815,6 +815,8 @@ namespace IC3 {
             cout << "IF picks starts." << endl;//youl
             
             int overlap_picks = 0;
+            int idx = 0;
+            vector<int> safe_idx_list;
             for (auto j : model.fixed_samples) {
               MSLitVec assumpts;
               assumpts.capacity(model.latches);
@@ -830,10 +832,20 @@ namespace IC3 {
               }
               //assumpts.push(~model.Error()); youl
               rv = fr.consecution->solve(assumpts);
-              if (rv) {overlap_picks++;}
+              if (rv) {
+                  overlap_picks++;
+                  safe_idx_list.push_back(idx);
+              }
+              idx++;
             }
             
             cout << "total picks: " << model.fixed_samples.size() << " " << "overlap picks: " << overlap_picks << endl;
+
+            cout << "safe_idx_list: ";
+            for (auto j : safe_idx_list) {
+                cout << j << " ";
+            }
+            cout << endl;
 
             cout << "IF picks ends." << endl;//youl
 

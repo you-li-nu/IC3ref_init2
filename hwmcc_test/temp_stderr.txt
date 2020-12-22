@@ -1,1 +1,1 @@
-/home/kaiyu/Documents/hwmcc_benchmarks/classified_benchmarks/single_safe_samples/pdtvsar8multip16.sample
+/home/kaiyu/Documents/hwmcc_benchmarks/classified_benchmarks/single_safe_samples/cmuperiodic.sample

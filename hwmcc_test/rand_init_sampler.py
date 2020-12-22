@@ -100,9 +100,10 @@ def generate_abc_command(init, aig_file):
     return command
 
 
-def run_abc_checking(init, aig_file, timeout):
-    path = '/home/kaiyu/Documents/IC3ref_init2/example/youl/abc-master/abc'
-    command_file = 'command_file.txt'
+def run_abc_checking(init, aig_file, timeout, path='/home/kaiyu/Documents/IC3ref_init2/example/youl/abc-master/abc'):
+    # path = '/home/kaiyu/Documents/IC3ref_init2/example/youl/abc-master/abc'
+
+    command_file = path.replace('/', '_') + '_command_file.txt'
     commands = generate_abc_command(init, aig_file)
     f = open(command_file, "w")
     f.write(commands)

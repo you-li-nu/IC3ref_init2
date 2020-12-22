@@ -38,6 +38,9 @@ def write_sample_files():
         #  ./IC3 -s -sample ../hwmcc_benchmarks/classified_benchmarks/single_safe_samples/pj2016.sample < ../hwmcc_benchmarks/classified_benchmarks/single_safe/pj2016.aig
 
         ic3_ac, ic3_timeout, ic3_run_time, ic3_safe_index_str = get_IC3_AC_rate(aig_file, sample_file, time_out)
+        if i % 10 == 9:
+            os.system('''ps -ef | grep 'IC3ref_ac_rate/IC3' | grep -v grep | cut -c 9-15 | xargs kill -9''')
+
         write_file_print(result_file, ic3_ac)
         write_file_print(result_file, ic3_timeout)
         write_file_print(result_file, ic3_run_time)
@@ -45,6 +48,9 @@ def write_sample_files():
 
         # ./iimc -t fsis --sample  ../hwmcc_benchmarks/classified_benchmarks/single_safe_samples/pj2016.sample ../hwmcc_benchmarks/classified_benchmarks/single_safe/pj2016.aig
         fsis_ac, fsis_timeout, fsis_run_time, fsis_safe_index_str = get_fsis_AC_rate(aig_file, sample_file, time_out)
+        if i % 10 == 5:
+            os.system('''ps -ef | grep '/iimc_ref/iimc' | grep -v grep | cut -c 9-15 | xargs kill -9''')
+
         write_file_print(result_file, fsis_ac)
         write_file_print(result_file, fsis_timeout)
         write_file_print(result_file, fsis_run_time)
@@ -90,6 +96,9 @@ def get_IC3_AC_rate(aig_file, sample_file, timeout):
 
 
 def get_fsis_AC_rate(aig_file, sample_file, time_out):
+    #@TODO Auto Kill iimc in the interation
+
+
     start_time = time.time()
 
     iimc_path = '/home/kaiyu/Documents/iimc_ref/iimc'

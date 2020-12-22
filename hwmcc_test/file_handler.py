@@ -25,7 +25,7 @@ def is_safe_checker():
     result_cnt = {'timeout': 0, 'unsafe': 0, 'safe': 0}
     for i, aig_file in enumerate(traversal_folder(raw_path)):
         if i % 10 == 0:
-            os.system('''ps -ef | grep 'abc' | grep -v grep | cut -c 9-15 | xargs kill -9''')
+            os.system('''ps -ef | grep '/home/kaiyu/Documents/IC3ref_init2/example/youl/abc-master/abc' | grep -v grep | cut -c 9-15 | xargs kill -9''')
 
         _, filename = os.path.split(aig_file)
         start_time = time.time()
@@ -81,7 +81,7 @@ def write_sample_files():
             continue
 
         if i % 10 == 1:
-            os.system('''ps -ef | grep 'abc' | grep -v grep | cut -c 9-15 | xargs kill -9''')
+            os.system('''ps -ef | grep '/home/kaiyu/Documents/IC3ref_init2/example/youl/abc-master/abc' | grep -v grep | cut -c 9-15 | xargs kill -9''')
 
         start_time = time.time()
         write_file_print(result_file, aig_file)

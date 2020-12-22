@@ -125,7 +125,7 @@ def pipeline():
             write_file_print(result_file, '', '\n')
 
 
-def get_AC_rate(aig_file, iter_cnt, time_out, file=None, result=None):
+def get_AC_rate(aig_file, iter_cnt, time_out, file=None, result=None, abc_path='/home/kaiyu/Documents/IC3ref_init2/example/youl/abc-master/abc'):
     from rand_init_sampler import rand_binary_string, read_aig_latch, run_abc_checking, process_abc_output
 
     num_latch = read_aig_latch(aig_file)
@@ -157,7 +157,7 @@ def get_AC_rate(aig_file, iter_cnt, time_out, file=None, result=None):
 
         rf.write(init_str)
 
-        finished, output = run_abc_checking(init_str, aig_file, time_out)
+        finished, output = run_abc_checking(init_str, aig_file, time_out, abc_path)
 
         if not finished:
             timeout_cnt += 1
@@ -176,6 +176,9 @@ def get_AC_rate(aig_file, iter_cnt, time_out, file=None, result=None):
     rf.close()
 
     print('\r')
+
+    # os.system(f'''ps -ef | grep '{abc_path}' | grep -v grep | cut -c 9-15 | xargs kill -9''')
+
     return timeout_cnt, correct_cnt
 
 def parse_raw_output4(raw_output: str):
@@ -185,13 +188,13 @@ def parse_raw_output4(raw_output: str):
     return int(segments[0][0]), int(segments[0][1])
 
 
-def test_IF_samples_abc(IF_samples, aig_file, time_out):
+def test_IF_samples_abc(IF_samples, aig_file, time_out, abc_path):
     from rand_init_sampler import generate_abc_command, run_abc_checking, process_abc_output
     assert(len(IF_samples) == 100)
     num_timeout = 0
     num_unsafe = 0
     for i in range(len(IF_samples)):
-        finished, output = run_abc_checking(IF_samples[i], aig_file, time_out)
+        finished, output = run_abc_checking(IF_samples[i], aig_file, time_out, abc_path)
         if not finished:
             num_timeout += 1
             break
@@ -254,7 +257,7 @@ def parse_raw_output2(raw_output: str):
     symbol_list = ['null'] + list(latch_list) + list(input_list) + list(rep_list)
     symbol_dict = {symbol_list[i]: i for i in range(1, len(symbol_list))}
 
-    return error_clauses, border_cubes, symbol_dict
+    return error_clauses, border_cubes, symbol_dict, latch_list
 
 
 def parse_raw_output1(raw_output: str):
